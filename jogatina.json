@@ -48404,5 +48404,102 @@
         "pontuação": "142"
       }
     ]
+  },
+  {
+    "_id": 1903,
+    "data": "23/08/2023",
+    "jogo": "Jaipur",
+    "peso": 1.47,
+    "resultados": [
+      {
+        "jogador": "Alexandre",
+        "colocação": "2",
+        "pontuação": "70"
+      },
+      {
+        "jogador": "Rafael",
+        "colocação": "1",
+        "pontuação": "73"
+      }
+    ]
+  },
+  {
+    "_id": 1904,
+    "data": "23/08/2023",
+    "jogo": "Yaniv",
+    "peso": 1.33,
+    "resultados": [
+      {
+        "jogador": "Alexandre",
+        "colocação": "3",
+        "pontuação": "100"
+      },
+      {
+        "jogador": "Rafael",
+        "colocação": "2",
+        "pontuação": "87"
+      },
+      {
+        "jogador": "Calil",
+        "colocação": "1",
+        "pontuação": "44"
+      }
+    ]
+  },
+  {
+    "_id": 1905,
+    "data": "23/08/2023",
+    "jogo": "Ark Nova",
+    "peso": 3.72,
+    "resultados": [
+      {
+        "jogador": "Alexandre",
+        "colocação": "1",
+        "pontuação": "31"
+      },
+      {
+        "jogador": "Rafael",
+        "colocação": "3",
+        "pontuação": "21"
+      },
+      {
+        "jogador": "Calil",
+        "colocação": "4",
+        "pontuação": "-3"
+      },
+      {
+        "jogador": "Marcondes",
+        "colocação": "2",
+        "pontuação": "30"
+      }
+    ]
+  },
+  {
+    "_id": 1906,
+    "data": "23/08/2023",
+    "jogo": "Mille Fiori",
+    "peso": 2.21,
+    "resultados": [
+      {
+        "jogador": "Alexandre",
+        "colocação": "1",
+        "pontuação": "268"
+      },
+      {
+        "jogador": "Rafael",
+        "colocação": "2",
+        "pontuação": "235"
+      },
+      {
+        "jogador": "Calil",
+        "colocação": "3",
+        "pontuação": "199"
+      },
+      {
+        "jogador": "Marcondes",
+        "colocação": "4",
+        "pontuação": "178"
+      }
+    ]
   }
 ]
