@@ -1,0 +1,66 @@
+body {
+    background-color: #FFD700;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+    
+.top-bar {
+    display: flex;
+    align-items: center;
+    background-color: darkblue;
+    border-bottom: 3px solid white;
+    width: 100%;
+    height: 10%;
+}
+
+.logo {
+    height: auto;
+    width: 23.51%;
+    float: none;
+    object-fit: contain;
+}
+
+#rankingTable {
+    margin-top: 2%;
+    border-collapse: collapse;
+    width: 70%;
+    margin: 20px auto;
+    font-family: Helvetica;
+    display: none;
+}
+
+#rankingTable th, #rankingTable td {
+    border: 2px solid darkblue;
+    padding: 1% 2%;
+}
+
+#rankingTable th {
+    background-color: darkblue;
+    color: white;
+    border-bottom: 2px solid  white;
+}
+
+.performance {
+    text-align: center;
+}
+
+#rankingButton {
+    background-color: darkblue;
+    color: white;
+    padding: 1% 1%;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    float: none;
+    margin: 0%;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#rankingButton:hover {
+    background-color: #1a2f4f;
+}
