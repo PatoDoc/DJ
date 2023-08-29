@@ -4,8 +4,8 @@ function countConsecutiveAbsences(playerName) {
     // Extract the unique dates (game sessions) and reverse them to start with the most recent
     let uniqueSessions = [...new Set(gamesData.map(game => game.data))].reverse();
     
-    console.log(`Checking absences for player: ${playerName}`);
-    console.log(`Total unique sessions: ${uniqueSessions.length}`);
+    // console.log(`Checking absences for player: ${playerName}`);
+    // console.log(`Total unique sessions: ${uniqueSessions.length}`);
 
     // Considering only the last 10 sessions
     for (let i = 0; i < Math.min(11, uniqueSessions.length); i++) {
@@ -14,21 +14,21 @@ function countConsecutiveAbsences(playerName) {
         // Get all games for the current session
         let gamesInSession = gamesData.filter(g => g.data === session);
         
-        console.log(`Checking session: ${session}. Total games in this session: ${gamesInSession.length}`);
+        // console.log(`Checking session: ${session}. Total games in this session: ${gamesInSession.length}`);
         
         // Check if the player participated in any game during this session
         let playerWasPresent = gamesInSession.some(game => game.resultados.some(r => r.jogador === playerName));
 
         if (playerWasPresent) {
-            console.log(`Player ${playerName} was present in session: ${session}`);
+            // console.log(`Player ${playerName} was present in session: ${session}`);
             break;
         } else {
             absentCount++;
-            console.log(`Player ${playerName} was absent in session: ${session}`);
+            // console.log(`Player ${playerName} was absent in session: ${session}`);
         }
     }
     
-    console.log(`Total absences for player ${playerName} in the last 10 sessions: ${absentCount}`);
+    // console.log(`Total absences for player ${playerName} in the last 10 sessions: ${absentCount}`);
     
     return absentCount;
 }
@@ -100,18 +100,18 @@ function calculatePerformanceForAllPlayers() {
 }
 
 
-function populateTable(performances) {
-    let tableBody = document.getElementById('rankingTable').querySelector('tbody');
-    performances.forEach(player => {
-        let row = tableBody.insertRow();
-        let nameCell = row.insertCell(0);
-        let performanceCell = row.insertCell(1);
-        performanceCell.className = "performance";
+// function populateTable(performances) {
+//     let tableBody = document.getElementById('rankingTable').querySelector('tbody');
+//     performances.forEach(player => {
+//         let row = tableBody.insertRow();
+//         let nameCell = row.insertCell(0);
+//         let performanceCell = row.insertCell(1);
+//         performanceCell.className = "performance";
 
-        nameCell.textContent = player.name;
-        performanceCell.textContent = player.performance.toFixed(2) + '%';
-    });
-}
+//         nameCell.textContent = player.name;
+//         performanceCell.textContent = player.performance.toFixed(2) + '%';
+//     });
+// }
 
 function setTableTitle() {
     let gameSessions = new Set(gamesData.map(game => game.data));
@@ -119,15 +119,20 @@ function setTableTitle() {
     document.getElementById('tableTitle').innerText = `Ranking da Jogatina nº ${totalGameSessions}`;
 }
 
-// Your event listener for the 'showRanking' button
-document.getElementById('showRanking').addEventListener('click', function() {
+// Your event listener for the 'rankingButton' button
+document.getElementById('rankingButton').addEventListener('click', function() {
     let table = document.getElementById('rankingTable');
     
-    if (table.style.display === 'none' || table.style.display === '') {
+    // if (table.style.display === 'none' || table.style.display === '') {
         if (gamesData.length === 0) {
             console.error('Data is not yet loaded. Please try again in a few seconds.');
             return;
         }
         calculatePerformanceForAllPlayers();
+        setTableTitle()
+    // }
+    if (table.style.display === 'none' || table.style.display === '') {
+        calculatePerformanceForAllPlayers();
+        setTableTitle();
     }
 });

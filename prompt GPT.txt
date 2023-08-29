@@ -1,0 +1,17 @@
+The new script is running but the results are wrong. Let's try to make a new one from scratch ok? But using gamesData, of course.
+
+Each "_id" in the JSON represents one match. All the matches with the same date (data) represents a session.
+
+So i want the performance of each player present in a session that will be given by date when prompted.
+
+Performance is measured dividing victories by total matches so we get a percentage. But i have a different approach to victories and matches. Let me explain.
+
+In a 5 player game, for example, 1 player is playing against 4 other players. So you could say he is playing 4 "mini-matches". Now if that player finishes in 2nd, that means he won 3 of his mini-matches (he bested 3 other players and got bested by one). I call them "mini-victories". So in the end, performance will be measured by the sum of mini-victories divided by the sum of mini-matches.
+
+Now there is one crucial detail. Usually, the number of mini-matches will be the number of players minus 1, and the number of mini-victories will be the number of player minus that players placement number. But that logic doesn't work in team games. Lets say there is a game 3 vs 3. A player from the victory team, using the rules of a normal game, would score 5 mini-victories of a total of 5 mini-matches. But that is wrong because, in reality, that player scored only 1 victory (against the other team), together with his teammates.
+
+So, the best way to count the number of mini-matches is to consider the last place number minus 1. Similarly, mini-victories will be the last place number minus actual placement number. You get my flow?
+
+________
+
+Excellent. I forgot one thing. Performance has to be weighted by the weight of the game (peso). I'm not sure how to do it but i think you have to multiply each mini-victory by the respective game weight, and also the mini-matches.

@@ -1,33 +1,92 @@
-function calculatePerformanceForSession(sessionDate) {
-    // Extract all games for the provided session
-    let gamesInSession = gamesData.filter(g => g.data === sessionDate);
+function calculateSessionPerformance(date) {
+    // Step 1: Filter games from the given session
+    let sessionGames = gamesData.filter(game => game.data === date);
+
+    // An object to hold mini-victories and mini-matches for each player
+    let playersStats = {};
+
+    // Step 2: Calculate mini-victories and mini-matches for each player
+    for (let game of sessionGames) {
+        let highestPlacement = Math.max(...game.resultados.map(r => Number(r.colocação)));
+        let gameWeight = game.peso || 1;  // We assume a default weight of 1 if not provided
     
-    // Create a set to collect all unique players in the session
-    let playersInSession = new Set();
-    gamesInSession.forEach(game => {
-        game.resultados.forEach(result => {
-            playersInSession.add(result.jogador);
-        });
-    });
+        for (let result of game.resultados) {
+            let playerName = result.jogador;
+            let playerPlacement = Number(result.colocação);
+    
+            if (!playersStats[playerName]) {
+                playersStats[playerName] = { miniVictories: 0, miniMatches: 0 };
+            }
+    
+            // Update mini-matches and apply game weight
+            playersStats[playerName].miniMatches += (highestPlacement - 1) * (gameWeight -1);
+    
+            // Update mini-victories and apply game weight
+            playersStats[playerName].miniVictories += (highestPlacement - playerPlacement) * (gameWeight - 1);
+        }
+    }
 
-    // Now, calculate performance for each player in the session
-    let sessionPerformance = [];
-    playersInSession.forEach(playerName => {
-        let performance = calculatePerformance(playerName);
-        sessionPerformance.push({
+    // Step 3 & 4: Sum up and calculate the performance percentage
+    let performance = [];
+    for (let playerName in playersStats) {
+        let stats = playersStats[playerName];
+        let percentage = (stats.miniVictories / stats.miniMatches) * 100;
+        performance.push({
             name: playerName,
-            performance: performance
+            performance: percentage
         });
-    });
+    }
 
-    // Sort them based on performance, highest to lowest
-    sessionPerformance.sort((a, b) => b.performance - a.performance);
+    // Sort by performance percentage (highest to lowest)
+    performance.sort((a, b) => b.performance - a.performance);
 
-    return sessionPerformance;
+    // Step 5: Return the results
+    return performance;
 }
 
-// Usage
-let sessionDate = "21/12/2014";  // or any date you want
-let sessionPerformances = calculatePerformanceForSession(sessionDate);
+function populateNightTable(performances) {
+    let tableBody = document.getElementById('rankingTable').querySelector('tbody');
+    tableBody.innerHTML = ''; // Clear existing rows
 
-console.log(sessionPerformances);
+    performances.forEach(player => {
+        let row = tableBody.insertRow();
+        let nameCell = row.insertCell(0);
+        let performanceCell = row.insertCell(1);
+        performanceCell.className = "performance";
+
+        nameCell.textContent = player.name;
+        performanceCell.textContent = player.performance.toFixed(2) + '%';
+    });
+}
+
+function setNightTableTitle(date) {
+    document.getElementById('tableTitle').innerText = `Ranking da Noite for ${date}`;
+}
+
+document.getElementById('rankingNoiteButton').addEventListener('click', function() {
+    let table = document.getElementById('rankingTable');
+    
+    let date = prompt("Please enter the date for the session (dd/mm/yyyy):");
+    if (date) {
+        let results = calculateSessionPerformance(date);
+
+        // Set table title for the night session
+        setNightTableTitle(date);
+
+        // Populate table with results
+        populateNightTable(results);
+
+        // Display the table
+        table.style.display = 'block';
+    } else {
+        console.log("No date provided, dude. Try again!");
+    }
+});
+
+// document.getElementById('rankingNoiteButton').addEventListener('click', function() {
+//     let date = prompt("Please enter the date for the session (dd/mm/yyyy):");
+//     let results = calculateSessionPerformance(date);
+    
+//     // You can then use the results to display them in any way you like.
+//     console.log(results);
+// });
