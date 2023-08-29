@@ -19,7 +19,7 @@ function calculateSessionPerformance(date) {
             }
     
             // Update mini-matches and apply game weight
-            playersStats[playerName].miniMatches += (highestPlacement - 1) * (gameWeight -1);
+            playersStats[playerName].miniMatches += (highestPlacement - 1) * (gameWeight - 1);
     
             // Update mini-victories and apply game weight
             playersStats[playerName].miniVictories += (highestPlacement - playerPlacement) * (gameWeight - 1);
@@ -45,10 +45,14 @@ function calculateSessionPerformance(date) {
 }
 
 function populateNightTable(performances) {
-    let tableBody = document.getElementById('rankingTable').querySelector('tbody');
-    tableBody.innerHTML = ''; // Clear existing rows
+    let table = document.getElementById('rankingTable');
+    // table.querySelector('tbody').innerHTML = '';
+    // var tableHeaderRowCount = 1;
+    // var rowCount = table.rows.length;
+    // for (var i = tableHeaderRowCount; i < rowCount; i++) {
+    // table.deleteRow(tableHeaderRowCount);
     performances.forEach(player => {
-        let row = tableBody.insertRow();
+        let row = table.insertRow();
         let nameCell = row.insertCell(0);
         let performanceCell = row.insertCell(1);
         performanceCell.className = "performance";
@@ -64,10 +68,16 @@ function setNightTableTitle(date) {
 
 document.getElementById('rankingNoiteButton').addEventListener('click', function() {
     let table = document.getElementById('rankingTable');
-    
+    // table.innerHTML = '';
+    while (table.rows.length > 1) {
+    table.deleteRow(1);
+    }
     let date = prompt("Please enter the date for the session (dd/mm/yyyy):");
     if (date) {
         let results = calculateSessionPerformance(date);
+
+        // Display the table
+        table.style.display = 'block'
 
         // Set table title for the night session
         setNightTableTitle(date);
@@ -75,8 +85,7 @@ document.getElementById('rankingNoiteButton').addEventListener('click', function
         // Populate table with results
         populateNightTable(results);
 
-        // Display the table
-        table.style.display = 'block';
+        
     } else {
         console.log("No date provided, dude. Try again!");
     }
