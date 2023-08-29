@@ -88,6 +88,11 @@ function calculatePerformanceForAllPlayers() {
     // Populate the table using the sorted data
     let table = document.getElementById('rankingTable');
     table.querySelector('tbody').innerHTML = ''; // Clear existing rows
+    var tableHeaderRowCount = 1;
+    var rowCount = table.rows.length;
+    for (var i = tableHeaderRowCount; i < rowCount; i++) {
+    table.deleteRow(tableHeaderRowCount);
+}
     table.style.display = 'block';  // <-- This line makes sure the table is displayed
     playersPerformance.forEach(playerData => {
         let row = table.insertRow();

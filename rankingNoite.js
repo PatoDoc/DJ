@@ -47,7 +47,6 @@ function calculateSessionPerformance(date) {
 function populateNightTable(performances) {
     let tableBody = document.getElementById('rankingTable').querySelector('tbody');
     tableBody.innerHTML = ''; // Clear existing rows
-
     performances.forEach(player => {
         let row = tableBody.insertRow();
         let nameCell = row.insertCell(0);
@@ -60,7 +59,7 @@ function populateNightTable(performances) {
 }
 
 function setNightTableTitle(date) {
-    document.getElementById('tableTitle').innerText = `Ranking da Noite for ${date}`;
+    document.getElementById('tableTitle').innerText = `Ranking - ${date}`;
 }
 
 document.getElementById('rankingNoiteButton').addEventListener('click', function() {
