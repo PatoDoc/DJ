@@ -100,8 +100,7 @@ body {
 @media (min-width: 850px) {
    
     #datePicker {
-        margin: none;
-        margin-right: auto;
+        /* margin-right: auto;
         margin-left: -375%; */
         display: inline-block;
         vertical-align: middle;
@@ -109,8 +108,8 @@ body {
     }
 
     #generateTableBtn {
-        margin-right: auto;
-        margin-left: -340%;
+        /* margin-right: auto;
+        margin-left: -340%; */
         margin-top: 3%;
         display: inline-block;
         vertical-align: middle;
