@@ -1,0 +1,11 @@
+#######################
+#Atualizações do site.#
+#######################
+
+4. 30/8/23: adição do favicon.
+---
+3. 29/8/23: ajustes no CSS para melhroar a visualização em smartphone e tablets.
+---
+2. 29/8/23: alteração do escolhedor de data do ranking por jogatina para a visualização de calendário.
+---
+1. 29/8/23: lançamento do site com as funcionalidades de visualização do ranking geral e do ranking por jogatina.
