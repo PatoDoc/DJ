@@ -73,16 +73,16 @@ body {
 #datePicker {
     font-size: 150%;
     padding: 2%;
-    margin-right: auto;
-    margin-left: -375%;
+    /* margin-right: auto; */
+    /* margin-left: -375%; */
     display: inline-block;
     vertical-align: middle;
     width: fit-content;
 }
 
 #generateTableBtn {
-    margin-right: auto;
-    margin-left: -340%;
+    /* margin-right: auto; */
+    /* margin-left: -340%; */
     margin-top: 3%;
     display: inline-block;
     vertical-align: middle;
@@ -93,15 +93,15 @@ body {
 }
 
 
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) {
     #datePicker, #generateTableBtn {
-        margin-left: auto; /* Resetting to auto to override the negatives */
-    }
-}
+        margin-left: auto;
+    } 
+} 
 
-/* Add a specific query for standard iPads */
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     #datePicker, #generateTableBtn {
         margin-left: auto;
     }
-}
+} */
