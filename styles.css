@@ -77,7 +77,7 @@ body {
 
 #datePicker {
     margin-right: auto;
-    margin-left: -375%;
+    /* margin-left: -375%; */
     display: inline-block;
     vertical-align: middle;
     width: fit-content;
