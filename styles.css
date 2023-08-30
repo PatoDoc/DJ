@@ -76,7 +76,7 @@ body {
 }
 
 /* Desktop-specific styles */
-/* @media (min-width: 1000px) {
+@media (min-width: 768px) {
    
     #datePicker {
         margin-right: auto;
@@ -97,4 +97,4 @@ body {
         padding-right: 7%;
         padding-top: 2%;
     }
-} */
+}
