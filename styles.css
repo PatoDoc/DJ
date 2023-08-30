@@ -94,16 +94,14 @@ body {
 
 
 @media only screen and (max-width: 800px) {
-   
-    #datePicker {
-        margin-right: auto;
-    }       
+    #datePicker, #generateTableBtn {
+        margin-left: auto; /* Resetting to auto to override the negatives */
+    }
+}
 
-    #generateTableBtn {
-        margin-right: auto;
-        margin-top: 3%;
-        padding-left: 5%;
-        padding-right: 7%;
-        padding-top: 2%;
+/* Add a specific query for standard iPads */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #datePicker, #generateTableBtn {
+        margin-left: auto;
     }
 }
