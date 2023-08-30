@@ -66,14 +66,66 @@ function setNightTableTitle(date) {
     document.getElementById('tableTitle').innerText = `Ranking - ${date}`;
 }
 
+// document.getElementById('rankingNoiteButton').addEventListener('click', function() {
+//     // Show the datePicker
+//     let datePicker = document.getElementById('datePicker');
+//     datePicker.style.display = 'block';
+    
+//     // Add a change listener to handle date selection
+//     datePicker.addEventListener('change', handleDateChange);
+// });
+
+// function handleDateChange() {
+//     let table = document.getElementById('rankingTable');
+//     while (table.rows.length > 1) {
+//         table.deleteRow(1);
+//     }
+
+//     let rawDate = this.value; // 'this' refers to the datePicker here
+//     if (rawDate) {
+//         let date = convertDate(rawDate);
+//         let results = calculateSessionPerformance(date);
+
+//         // Display the table
+//         table.style.display = 'block';
+
+//         // Set table title for the night session
+//         setNightTableTitle(date);
+
+//         // Populate table with results
+//         populateNightTable(results);
+
+//         // Hide the datePicker again
+//         this.style.display = 'none';
+
+//         // Remove the event listener so it doesn't keep stacking up
+//         this.removeEventListener('change', handleDateChange);
+//     } else {
+//         console.log("No date provided, dude. Try again!");
+//     }
+// }
+
 document.getElementById('rankingNoiteButton').addEventListener('click', function() {
+    // let table = document.getElementById('rankingTable');
+    // while (table.rows.length > 1) {
+    //     table.deleteRow(1);
+    // }
+
+    // tableTitle.innerText = '';
+    document.getElementById('dateContainer').style.display = 'block'; // This will show the date picker
+    document.getElementById('datePicker').style.display = 'block';
+});
+
+document.getElementById('generateTableBtn').addEventListener('click', function() {
     let table = document.getElementById('rankingTable');
-    // table.innerHTML = '';
+
     while (table.rows.length > 1) {
-    table.deleteRow(1);
+        table.deleteRow(1);
     }
-    let date = prompt("Please enter the date for the session (dd/mm/yyyy):");
-    if (date) {
+
+    let rawDate = document.getElementById('datePicker').value;
+    if (rawDate) {
+        let date = convertDate(rawDate);
         let results = calculateSessionPerformance(date);
 
         // Display the table
@@ -85,16 +137,17 @@ document.getElementById('rankingNoiteButton').addEventListener('click', function
         // Populate table with results
         populateNightTable(results);
 
-        
+        // Hide the dateContainer
+        document.getElementById('dateContainer').style.display = 'none';
     } else {
         console.log("No date provided, dude. Try again!");
     }
 });
 
-// document.getElementById('rankingNoiteButton').addEventListener('click', function() {
-//     let date = prompt("Please enter the date for the session (dd/mm/yyyy):");
-//     let results = calculateSessionPerformance(date);
-    
-//     // You can then use the results to display them in any way you like.
-//     console.log(results);
-// });
+
+
+function convertDate(inputDate) {
+    let parts = inputDate.split("-");
+    return `${parts[2]}/${parts[1]}/${parts[0]}`;
+}
+
