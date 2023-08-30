@@ -78,31 +78,44 @@ body {
 #datePicker {
     margin-right: auto;
     margin-left: -375%;
-    display: inline-block;
+    /* display: inline-block;
     vertical-align: middle;
-    width: fit-content;
+    width: fit-content; */
 }
 
 #generateTableBtn {
     margin-right: auto;
     margin-left: -340%;
     margin-top: 3%;
-    display: inline-block;
+    /* display: inline-block;
     vertical-align: middle;
-    width: fit-content;
+    width: fit-content; */
     padding-left: 5%;
     padding-right: 7%;
     padding-top: 2%;
 }
 
-/* touch-specific styles */
+/* Desktop-specific styles */
 @media (hover: none) and (pointer: coarse) {
    
     #datePicker {
-        
+        margin: none;
+        /* margin-right: auto;
+        margin-left: -375%; */
+        /* display: inline-block;
+        vertical-align: middle;
+        width: fit-content; */
     }
 
     #generateTableBtn {
-        
+        /* margin-right: auto;
+        margin-left: -340%; */
+        margin-top: 3%;
+        /* display: inline-block;
+        vertical-align: middle;
+        width: fit-content; */
+        padding-left: 5%;
+        padding-right: 7%;
+        padding-top: 2%;
     }
 }
