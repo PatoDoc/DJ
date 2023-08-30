@@ -96,7 +96,7 @@ body {
 }
 
 /* Desktop-specific styles */
-@media (hover: none) and (pointer: coarse) {
+@media (min-width: 768px) {
    
     #datePicker {
         margin: none;
