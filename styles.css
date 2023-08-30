@@ -10,6 +10,7 @@ body {
 
 #tableTitle {
     color: darkblue;
+    padding: 0%;
 }
 
 .top-bar {
@@ -68,3 +69,39 @@ body {
     background-color: yellow;
     color: darkblue;
 }
+
+#datePicker {
+    font-size: 150%;
+    padding: 2%;
+    /* margin-right: auto; */
+    /* margin-left: -375%; */
+    display: inline-block;
+    vertical-align: middle;
+    width: fit-content;
+}
+
+#generateTableBtn {
+    /* margin-right: auto; */
+    /* margin-left: -340%; */
+    margin-top: 3%;
+    display: inline-block;
+    vertical-align: middle;
+    width: fit-content;
+    padding-left: 5%;
+    padding-right: 7%;
+    padding-top: 2%;
+}
+
+
+/* @media only screen and (max-width: 800px) {
+    #datePicker, #generateTableBtn {
+        margin-left: auto;
+    } 
+} 
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #datePicker, #generateTableBtn {
+        margin-left: auto;
+    }
+} */
