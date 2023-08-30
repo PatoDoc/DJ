@@ -66,52 +66,31 @@ function setNightTableTitle(date) {
     document.getElementById('tableTitle').innerText = `Ranking - ${date}`;
 }
 
-// document.getElementById('rankingNoiteButton').addEventListener('click', function() {
-//     // Show the datePicker
-//     let datePicker = document.getElementById('datePicker');
-//     datePicker.style.display = 'block';
+// function setLatestDateAsDefault() {
+//     // Extract all dates from the gamesData
+//     let allDates = gamesData.map(game => game.data);
+
+//     // Convert them to Date objects for comparison
+//     let dateObjects = allDates.map(dateStr => {
+//         let parts = dateStr.split('/');
+//         return new Date(parts[2], parts[1] - 1, parts[0]);  // YYYY, MM, DD format
+//     });
+
+//     // Get the latest date
+//     let latestDate = new Date(Math.max.apply(null, dateObjects));
+
+//     // Convert the latest date back to the format needed for the input value
+//     let yyyy = latestDate.getFullYear();
+//     let mm = String(latestDate.getMonth() + 1).padStart(2, '0');  // January is 0!
+//     let dd = String(latestDate.getDate()).padStart(2, '0');
     
-//     // Add a change listener to handle date selection
-//     datePicker.addEventListener('change', handleDateChange);
-// });
+//     let formattedLatestDate = `${yyyy}-${mm}-${dd}`;
 
-// function handleDateChange() {
-//     let table = document.getElementById('rankingTable');
-//     while (table.rows.length > 1) {
-//         table.deleteRow(1);
-//     }
-
-//     let rawDate = this.value; // 'this' refers to the datePicker here
-//     if (rawDate) {
-//         let date = convertDate(rawDate);
-//         let results = calculateSessionPerformance(date);
-
-//         // Display the table
-//         table.style.display = 'block';
-
-//         // Set table title for the night session
-//         setNightTableTitle(date);
-
-//         // Populate table with results
-//         populateNightTable(results);
-
-//         // Hide the datePicker again
-//         this.style.display = 'none';
-
-//         // Remove the event listener so it doesn't keep stacking up
-//         this.removeEventListener('change', handleDateChange);
-//     } else {
-//         console.log("No date provided, dude. Try again!");
-//     }
+//     document.getElementById('datePicker').value = formattedLatestDate;
 // }
 
-document.getElementById('rankingNoiteButton').addEventListener('click', function() {
-    // let table = document.getElementById('rankingTable');
-    // while (table.rows.length > 1) {
-    //     table.deleteRow(1);
-    // }
 
-    // tableTitle.innerText = '';
+document.getElementById('rankingNoiteButton').addEventListener('click', function() {
     document.getElementById('dateContainer').style.display = 'block'; // This will show the date picker
     document.getElementById('datePicker').style.display = 'block';
 });
