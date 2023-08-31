@@ -39,8 +39,7 @@ body {
 }
 
 #rankingTable th, #rankingTable td {
-    border: 1px solid darkblue;
-    padding: 8px 12px;
+       padding: 8px 12px;
 }
 
 #rankingTable td:nth-child(2) {
@@ -95,6 +94,10 @@ body {
     padding-right: 7%;
     padding-top: 2%;
 }
+
+tr {
+    background-color: lightgreen;
+  }
 
 
 /* @media only screen and (max-width: 800px) {
