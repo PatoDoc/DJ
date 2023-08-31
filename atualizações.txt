@@ -2,6 +2,8 @@
 #Atualizações do site.#
 #######################
 
+7. 31/8/23: prompt do ranking da noite alterado para um overlay.
+---
 6. 31/8/23: nome do jogo no título da tabela do ranking por jogo.
 ---
 5. 31/8/23: nova funcionalidade: ranking por jogo.
