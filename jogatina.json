@@ -48501,5 +48501,74 @@
         "pontuação": "178"
       }
     ]
+  },
+  {
+    "_id": 1907,
+    "data": "30/08/2023",
+    "jogo": "Tribes of the Wind",
+    "peso": 2.62,
+    "resultados": [
+      {
+        "jogador": "Alexandre",
+        "colocação": "1",
+        "pontuação": "74"
+      },
+      {
+        "jogador": "Marcondes",
+        "colocação": "2",
+        "pontuação": "59"
+      },
+      {
+        "jogador": "Calil",
+        "colocação": "3",
+        "pontuação": "58"
+      }
+    ]
+  },
+  {
+    "_id": 1908,
+    "data": "30/08/2023",
+    "jogo": "Race for the Galaxy",
+    "peso": 2.99,
+    "resultados": [
+      {
+        "jogador": "Alexandre",
+        "colocação": "2",
+        "pontuação": "27"
+      },
+      {
+        "jogador": "Marcondes",
+        "colocação": "3",
+        "pontuação": "26"
+      },
+      {
+        "jogador": "Calil",
+        "colocação": "1",
+        "pontuação": "28"
+      }
+    ]
+  },
+  {
+    "_id": 1909,
+    "data": "30/08/2023",
+    "jogo": "Tigris & Euphrates",
+    "peso": 3.5,
+    "resultados": [
+      {
+        "jogador": "Alexandre",
+        "colocação": "1",
+        "pontuação": "15"
+      },
+      {
+        "jogador": "Marcondes",
+        "colocação": "2",
+        "pontuação": "13"
+      },
+      {
+        "jogador": "Calil",
+        "colocação": "3",
+        "pontuação": "8"
+      }
+    ]
   }
 ]
