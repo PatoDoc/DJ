@@ -6,10 +6,10 @@ document.getElementById('submitGameName').addEventListener('click', function() {
     let gameName = document.getElementById('gameInput').value;
     if (gameName) {
         let gamePerformance = getPerformance(gamesData, gameName);
+        document.getElementById('tableTitle').innerText = `Ranking - ${gameName}`;
         let table = document.getElementById('rankingTable');
         table.style.display = 'block';
 
-        console.log("About to call displayPerformanceInTable");
         displayPerformanceInTable(gamePerformance);
         
         // Hide the overlay after the game is selected
@@ -24,7 +24,6 @@ function getPerformance(data, gameName) {
     data.forEach(match => {
         if (match.jogo === gameName) {
             let lastPlace = Math.max(...match.resultados.map(r => parseInt(r.colocação)));
-            console.log(`Match for ${gameName}: Last place is ${lastPlace}`);
 
             match.resultados.forEach(player => {
                 let playerName = player.jogador;
@@ -69,8 +68,6 @@ function displayPerformanceInTable(gamePerformance) {
     while (table.rows.length > 1) {
         table.deleteRow(1);
     }
-
-    console.log("About to populate table with:", gamePerformance);
 
     // Convert the gamePerformance object to an array, filter out 'Coringa' and 'Coringa 2', then sort it
     let sortedPlayers = Object.keys(gamePerformance)
