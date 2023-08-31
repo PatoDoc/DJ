@@ -2,6 +2,8 @@
 #Atualizações do site.#
 #######################
 
+5. 31/8/23: nova funcionalidade: ranking por jogo.
+---
 4. 30/8/23: adição do favicon.
 ---
 3. 29/8/23: ajustes no CSS para melhroar a visualização em smartphone e tablets.
