@@ -1,0 +1,3 @@
+Menu dropdown para os botões da barra superior.
+Modal-style prompt para o ranking da noite.
+No ranking por jogo, colocar a opção de filtrar o número mínimo que jogos para figurar no ranking.
