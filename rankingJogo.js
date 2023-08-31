@@ -4,21 +4,20 @@ document.getElementById('rankingJogoButton').addEventListener('click', function(
 
 document.getElementById('submitGameName').addEventListener('click', function() {
     let gameName = document.getElementById('gameInput').value;
+    let minMatches = parseInt(prompt("Insira o número mínimo de partidas que um jogador deve ter disputado:", "1")) || 0;
     if (gameName) {
-        let gamePerformance = getPerformance(gamesData, gameName);
+        let gamePerformance = getPerformance(gamesData, gameName, minMatches);
         document.getElementById('tableTitle').innerText = `Ranking - ${gameName}`;
         let table = document.getElementById('rankingTable');
         table.style.display = 'block';
 
-        displayPerformanceInTable(gamePerformance);
+        displayPerformanceInTable(gamePerformance, minMatches);
         
-        // Hide the overlay after the game is selected
         document.getElementById('gameSelectionOverlay').style.display = 'none';
     }
 });
 
-
-function getPerformance(data, gameName) {
+function getPerformance(data, gameName, minMatches) {
     let performance = {};
 
     data.forEach(match => {
@@ -32,54 +31,51 @@ function getPerformance(data, gameName) {
                 let miniMatches = lastPlace - 1;
                 let miniVictories = playerPlacement === 1 ? miniMatches : (lastPlace - playerPlacement);
 
-                
-
                 if (!performance[playerName]) {
                     performance[playerName] = {
                         miniVictories: 0,
                         miniMatches: 0,
-                        percentage: 0
+                        percentage: 0,
+                        matchesPlayed: 0
                     };
                 }
 
                 performance[playerName].miniVictories += miniVictories;
                 performance[playerName].miniMatches += miniMatches;
+                performance[playerName].matchesPlayed++;
             });
         }
     });
 
     for (let player in performance) {
-        if(performance[player].miniMatches > 0) {
+        if (performance[player].miniMatches > 0) {
             performance[player].percentage = ((performance[player].miniVictories / performance[player].miniMatches) * 100).toFixed(2);
         }
     }
 
-    
-
     return performance;
 }
 
-
-function displayPerformanceInTable(gamePerformance) {
+function displayPerformanceInTable(gamePerformance, minMatches) {
     let tableBody = document.getElementById('rankingTable').querySelector('tbody');
+    let table = document.getElementById('rankingTable');
     
     // Clear existing rows from the table
-    let table = document.getElementById('rankingTable');
     while (table.rows.length > 1) {
         table.deleteRow(1);
     }
 
-    // Convert the gamePerformance object to an array, filter out 'Coringa' and 'Coringa 2', then sort it
+    // Filter, map and sort players
     let sortedPlayers = Object.keys(gamePerformance)
     .filter(playerName => playerName !== 'Coringa' && playerName !== 'Coringa 2')
+    .filter(playerName => gamePerformance[playerName].matchesPlayed >= minMatches)
     .map(playerName => {
         return {
             name: playerName,
             ...gamePerformance[playerName]
         };
-    }).sort((a, b) => b.percentage - a.percentage);  // sort in descending order
+    }).sort((a, b) => b.percentage - a.percentage);
 
-    // Use the sortedPlayers array to populate the table
     sortedPlayers.forEach(player => {
         let row = tableBody.insertRow();
         let cell1 = row.insertCell(0);
