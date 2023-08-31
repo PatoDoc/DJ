@@ -34,7 +34,30 @@ window.onload = function() {
         .then(data => {
             gamesData = data;
             setLatestDateAsDefault();
+            populateGameList(gamesData)
         })
         .catch(error => console.error('Error fetching the data:', error));
+
+}
+
+
+function populateGameList(data) {
+    let gamesList = document.getElementById('gamesList');
+
+    // Clear the current options
+    while (gamesList.firstChild) {
+        gamesList.removeChild(gamesList.firstChild);
+    }
+
+    let uniqueGames = [...new Set(data.map(match => match.jogo))];
+
+    // Sort the games alphabetically
+    uniqueGames.sort();
+
+    uniqueGames.forEach(gameName => {
+        let option = document.createElement('option');
+        option.value = gameName;
+        gamesList.appendChild(option);
+    });
 }
 

@@ -14,6 +14,7 @@
 		</a>
 		<button id="rankingButton" class="Button">Ranking</button>
 		<button id="rankingNoiteButton" class="Button">Ranking da Noite</button>
+		<button id="rankingJogoButton" class="Button">Ranking por Jogo</button>
 	</div>
 	<div id="dateContainer" style="display: none;">
 		<br>
@@ -32,8 +33,19 @@
 			<!-- Player rows will be added by the JavaScript -->
 		</tbody>
 		</table>
+		<div id="gameSelectionOverlay" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.6); z-index: 1000; align-items: center; justify-content: center;">
+			<div style="background: #fff; padding: 20px; border-radius: 5px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+				<h4>Select a Game:</h4>
+				<input list="gamesList" id="gameInput" placeholder="Type the game name...">
+				<datalist id="gamesList">
+					<!-- JS will populate this with game names -->
+				</datalist>
+				<button id="submitGameName">OK</button>
+			</div>
+		</div>		
 <script src="main.js"></script>
 <script src="ranking.js"></script>
 <script src="rankingNoite.js"></script>
+<script src="rankingJogo.js"></script>
 </body>
 </html>

@@ -43,6 +43,10 @@ body {
     padding: 8px 12px;
 }
 
+#rankingTable td:nth-child(2) {
+    text-align: center;
+}
+
 #rankingTable th {
     background-color: darkblue;
     color: white;
