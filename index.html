@@ -17,10 +17,17 @@
 		<button id="rankingNoiteButton" class="Button">Ranking da Noite</button>
 		<button id="rankingJogoButton" class="Button">Ranking por Jogo</button>
 	</div>
-	<div id="dateContainer" style="display: none;">
+	<!-- <div id="dateContainer" style="display: none;">
 		<br>
 		<input type="date" id="datePicker">
 		<button id="generateTableBtn">OK</button>
+	</div> -->
+	<div id="dateOverlay" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.6); z-index: 1000; align-items: center; justify-content: center;">
+		<div style="background: #fff; padding: 20px; border-radius: 5px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+			<h4>Escolha uma data:</h4>
+			<input type="date" id="datePicker">
+			<button id="generateTableBtn">OK</button>
+		</div>
 	</div>
 		<h2 id="tableTitle"></h2>
 		<table id="rankingTable">

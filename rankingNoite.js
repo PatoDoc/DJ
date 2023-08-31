@@ -68,37 +68,41 @@ function setNightTableTitle(date) {
 
 
 document.getElementById('rankingNoiteButton').addEventListener('click', function() {
-    document.getElementById('dateContainer').style.display = 'block'; // This will show the date picker
-    document.getElementById('datePicker').style.display = 'block';
+    document.getElementById('dateOverlay').style.display = 'flex';
 });
 
-document.getElementById('generateTableBtn').addEventListener('click', function() {
-    let table = document.getElementById('rankingTable');
 
+
+
+document.getElementById('generateTableBtn').addEventListener('click', function() {
+    console.log("Button clicked!"); 
+
+    let table = document.getElementById('rankingTable');
     while (table.rows.length > 1) {
         table.deleteRow(1);
     }
 
     let rawDate = document.getElementById('datePicker').value;
+    console.log("Raw date value: ", rawDate);
     if (rawDate) {
         let date = convertDate(rawDate);
         let results = calculateSessionPerformance(date);
-
-        // Display the table
-        table.style.display = 'block'
-
-        // Set table title for the night session
-        setNightTableTitle(date);
-
-        // Populate table with results
-        populateNightTable(results);
-
-        // Hide the dateContainer
-        document.getElementById('dateContainer').style.display = 'none';
+        
+        table.style.display = 'block' // Display the table
+        
+        setNightTableTitle(date);  // Set table title for the night session
+        
+        populateNightTable(results);  // Populate table with results
+        
+        document.getElementById('dateOverlay').style.display = 'none';  // Hide the overlay
     } else {
-        console.log("No date provided, dude. Try again!");
+        console.log("No date selected, dude. Try again!");
     }
+
+    document.getElementById('dateOverlay').style.display = 'none';
+
 });
+
 
 
 
