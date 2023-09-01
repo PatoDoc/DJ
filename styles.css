@@ -98,10 +98,13 @@ tr {
     font-size: 1.2em;
     border: none;
     cursor: pointer;
+    height: 60px;
+    width: 160px;
+
 }
 
 /* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
+.dropbtn:hover {
     background-color: yellow;
     color: darkblue;
     height: 60px;
@@ -130,10 +133,10 @@ tr {
     display: block;
 }
 
-/* Change color of dropdown links on hover */
 .dropdown-content a:hover {
     background-color: gray;
 }
+
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
