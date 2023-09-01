@@ -48,6 +48,10 @@ body {
     text-align: center;
 }
 
+#rankingTable td:nth-child(3) {
+    text-align: center;
+}
+
 #rankingTable th {
     background-color: darkblue;
     color: white;

@@ -27,6 +27,7 @@ function getPerformance(data, gameName, minMatches) {
             match.resultados.forEach(player => {
                 let playerName = player.jogador;
                 let playerPlacement = parseInt(player.colocação);
+                let playerPoints = parseInt(player.pontuação);
 
                 let miniMatches = lastPlace - 1;
                 let miniVictories = playerPlacement === 1 ? miniMatches : (lastPlace - playerPlacement);
@@ -36,13 +37,18 @@ function getPerformance(data, gameName, minMatches) {
                         miniVictories: 0,
                         miniMatches: 0,
                         percentage: 0,
-                        matchesPlayed: 0
+                        matchesPlayed: 0,
+                        highestPoints: 0
                     };
                 }
 
                 performance[playerName].miniVictories += miniVictories;
                 performance[playerName].miniMatches += miniMatches;
                 performance[playerName].matchesPlayed++;
+
+                if (playerPoints > performance[playerName].highestPoints) {
+                    performance[playerName].highestPoints = playerPoints;
+                }
             });
         }
     });
@@ -80,8 +86,10 @@ function displayPerformanceInTable(gamePerformance, minMatches) {
         let row = tableBody.insertRow();
         let cell1 = row.insertCell(0);
         let cell2 = row.insertCell(1);
+        let cell3 = row.insertCell(2);
 
         cell1.textContent = player.name;
         cell2.textContent = player.percentage + "%";
+        cell3.textContent = player.highestPoints === 0 ? "-" : player.highestPoints;  // Display highest points here
     });
 }
