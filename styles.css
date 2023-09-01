@@ -64,7 +64,6 @@ body {
     border-radius: 6px;
     cursor: pointer;
     margin: 0%;
-    font-size: 1.5em;
     font-weight: bold;
 }
 
@@ -99,31 +98,53 @@ tr {
     background-color: lightgreen;
   }
 
-/* #dateOverlay {
+  .dropbtn {
+    background-color: transparent;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    padding: 19% 30%;
+    font-size: 140%;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: yellow;
+    color: darkblue;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
     display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 10vw;
-    height: 10vh;
-    background: rgba(0, 0, 0, 0.8);
-    z-index: 10;
-    align-items: center;
-    justify-content: center;
-} */
+    position: absolute;
+    background-color: lightgray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
 
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
 
-/* @media only screen and (max-width: 800px) {
-    #datePicker, #generateTableBtn {
-        margin-left: auto;
-    } 
-} 
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: gray;
+}
 
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-    #datePicker, #generateTableBtn {
-        margin-left: auto;
-    }
-} */
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
