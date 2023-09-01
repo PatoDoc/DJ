@@ -44,13 +44,20 @@ function calculateSessionPerformance(date) {
     return performance;
 }
 
+function hideThirdColumn() {
+    document.querySelector('#rankingTable th:nth-child(3)').style.display = 'none';
+}
+
 function populateNightTable(performances) {
+
+    hideThirdColumn();
     let table = document.getElementById('rankingTable');
     // table.querySelector('tbody').innerHTML = '';
     // var tableHeaderRowCount = 1;
     // var rowCount = table.rows.length;
     // for (var i = tableHeaderRowCount; i < rowCount; i++) {
     // table.deleteRow(tableHeaderRowCount);
+
     performances.forEach(player => {
         let row = table.insertRow();
         let nameCell = row.insertCell(0);
@@ -75,7 +82,7 @@ document.getElementById('rankingNoiteButton').addEventListener('click', function
 
 
 document.getElementById('generateTableBtn').addEventListener('click', function() {
-    console.log("Button clicked!"); 
+    console.log("Button clicked!");
 
     let table = document.getElementById('rankingTable');
     while (table.rows.length > 1) {

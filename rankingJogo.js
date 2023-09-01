@@ -71,6 +71,8 @@ function displayPerformanceInTable(gamePerformance, minMatches) {
         table.deleteRow(1);
     }
 
+    document.querySelector('#rankingTable th:nth-child(3)').style.display = 'table-cell';
+    
     // Filter, map and sort players
     let sortedPlayers = Object.keys(gamePerformance)
     .filter(playerName => playerName !== 'Coringa' && playerName !== 'Coringa 2')
@@ -92,4 +94,5 @@ function displayPerformanceInTable(gamePerformance, minMatches) {
         cell2.textContent = player.percentage + "%";
         cell3.textContent = player.highestPoints === 0 ? "-" : player.highestPoints;  // Display highest points here
     });
+
 }

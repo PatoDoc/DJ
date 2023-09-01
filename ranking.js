@@ -33,6 +33,10 @@ function countConsecutiveAbsences(playerName) {
     return absentCount;
 }
 
+function hideThirdColumn() {
+    document.querySelector('#rankingTable th:nth-child(3)').style.display = 'none';
+}
+
 function calculatePerformance(playerName) {
     let weightedPlayerVictories = 0;
     let weightedTotalMiniMatches = 0;
@@ -58,6 +62,9 @@ function calculatePerformance(playerName) {
 }
 
 function calculatePerformanceForAllPlayers() {
+
+    hideThirdColumn();   
+
     // Get a list of all unique players
     let allPlayers = [];
     gamesData.forEach(game => {
@@ -92,8 +99,12 @@ function calculatePerformanceForAllPlayers() {
     var rowCount = table.rows.length;
     for (var i = tableHeaderRowCount; i < rowCount; i++) {
     table.deleteRow(tableHeaderRowCount);
+
 }
     table.style.display = 'block';  // <-- This line makes sure the table is displayed
+
+
+
     playersPerformance.forEach(playerData => {
         let row = table.insertRow();
         let cell1 = row.insertCell(0);

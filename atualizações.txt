@@ -2,6 +2,8 @@
 #Atualizações do site.#
 #######################
 
+10. 1/9/23: conserto de bug que fazia a 3ª coluna da tabela de ranking por jogo aparecer nas outras também.
+---
 9. 1/9/23: adição da coluna Máximo de pontos' no ranking por jogo.
 ---
 8. 31/8/23: os botões de ranking, ranking da noite e ranking por jogo consolidado em um menu estilo "dropdown",

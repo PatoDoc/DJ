@@ -4,4 +4,4 @@ Reformular formatação geral so site e fazer versões separadas para smartphone
 Arrumar o CSS.
 Alterar a coluna 'máximo de pontos' do ranking por jogo e colocar 'melhor pontuação'
 _ e fazer com que o código identifique os jogos que menor pontuação seja melhor.
-_ Alternativamente, colocar uma colar de potução mínima.
+_ Para isso colocar na lista de jogos uma entrada com 'forma de viória'.
