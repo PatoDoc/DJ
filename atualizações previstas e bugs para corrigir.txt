@@ -1,2 +1,4 @@
 Menu dropdown para os botões da barra superior.
 Melhorar layout para smartphone e tablets.
+Reformular formatação geral so site e fazer versões separadas para smartphone e tablets.
+Arrumar o CSS.
