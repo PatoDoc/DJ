@@ -48570,5 +48570,128 @@
         "pontuação": "8"
       }
     ]
+  },
+  {
+    "_id": 1910,
+    "data": "06/07/2023",
+    "jogo": "Star Wars: The Deckbuilding Game",
+    "peso": 2.01,
+    "resultados": [
+      {
+        "jogador": "Alexandre",
+        "colocação": "1",
+        "pontuação": "3"
+      },
+      {
+        "jogador": "Calil",
+        "colocação": "2",
+        "pontuação": "2"
+      }
+    ]
+  },
+  {
+    "_id": 1911,
+    "data": "06/07/2023",
+    "jogo": "Port Royal",
+    "peso": 1.63,
+    "resultados": [
+      {
+        "jogador": "Alexandre",
+        "colocação": "1",
+        "pontuação": "13"
+      },
+      {
+        "jogador": "Calil",
+        "colocação": "2",
+        "pontuação": "10"
+      }
+    ]
+  },
+  {
+    "_id": 1912,
+    "data": "06/07/2023",
+    "jogo": "Merv: The Heart of the Silk Road",
+    "peso": 3.46,
+    "resultados": [
+      {
+        "jogador": "Alexandre",
+        "colocação": "3",
+        "pontuação": "46"
+      },
+      {
+        "jogador": "Calil",
+        "colocação": "1",
+        "pontuação": "77"
+      },
+      {
+        "jogador": "Marcondes",
+        "colocação": "2",
+        "pontuação": "66"
+      }
+    ]
+  },
+  {
+    "_id": 1913,
+    "data": "06/07/2023",
+    "jogo": "Tapestry",
+    "peso": 2.91,
+    "resultados": [
+      {
+        "jogador": "Alexandre",
+        "colocação": "3",
+        "pontuação": "144"
+      },
+      {
+        "jogador": "Calil",
+        "colocação": "2",
+        "pontuação": "203"
+      },
+      {
+        "jogador": "Marcondes",
+        "colocação": "1",
+        "pontuação": "206"
+      }
+    ]
+  },
+  {
+    "_id": 1914,
+    "data": "06/07/2023",
+    "jogo": "Race for the Galaxy",
+    "peso": 2.99,
+    "resultados": [
+      {
+        "jogador": "Alexandre",
+        "colocação": "2",
+        "pontuação": "29"
+      },
+      {
+        "jogador": "Marcondes",
+        "colocação": "3",
+        "pontuação": "23"
+      },
+      {
+        "jogador": "Calil",
+        "colocação": "1",
+        "pontuação": "60"
+      }
+    ]
+  },
+  {
+    "_id": 1915,
+    "data": "06/07/2023",
+    "jogo": "Ark Nova",
+    "peso": 3.72,
+    "resultados": [
+      {
+        "jogador": "Alexandre",
+        "colocação": "1",
+        "pontuação": "30"
+      },
+      {
+        "jogador": "Marcondes",
+        "colocação": "2",
+        "pontuação": "28"
+      }
+    ]
   }
 ]
