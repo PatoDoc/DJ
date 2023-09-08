@@ -54,7 +54,6 @@ window.onload = function() {
             console.log('Data loaded into gamesData and DJ!');
             setLatestDateAsDefault();
             populateGameList(gamesData);
-            calculateEloRatings(gamesData, DJ); // You'll pass both datasets to your function
         })
         .catch(error => console.error('Error fetching the data:', error));
 }
