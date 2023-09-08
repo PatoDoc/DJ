@@ -89,13 +89,13 @@ function displayPerformanceInTable(gamePerformance, minMatches) {
         let cell1 = row.insertCell(0);
         let cell2 = row.insertCell(1);
         let cell3 = row.insertCell(2);
-        let cell4 = row.insertCell(3);
+        // let cell4 = row.insertCell(3);
 
         cell1.textContent = player.name;
         cell2.textContent = player.percentage + "%";
         cell3.textContent = player.highestPoints === 0 ? "-" : player.highestPoints;  // Display highest points here
-        let eloRating = getEloRating(player.name, gameName);
-        cell4.textContent = eloRating;
+        // let eloRating = getEloRating(player.name, gameName);
+        // cell4.textContent = eloRating;
     });
 
 }
