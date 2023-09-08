@@ -29,33 +29,16 @@ document.getElementById('homeButton').addEventListener('click', function() {
 
 // Fetch data right away when the page loads
 window.onload = function() {
-    
-    let gamesData;
-    let DJ;
-
-    // Function to fetch games data
-    const fetchGamesData = () => {
-        return fetch('jogatina.json')
-            .then(response => response.json());
-    };
-
-    // Function to fetch DJ data
-    const fetchDJ = () => {
-        return fetch('DJ.json')
-            .then(response => response.json());
-    };
-
-    // Use Promise.all to ensure both datasets are loaded before processing
-    Promise.all([fetchGamesData(), fetchDJ()])
+    fetch('jogatina.json')
+        .then(response => response.json())
         .then(data => {
-            gamesData = data[0];  // Assigning the first fetched data
-            DJ = data[1];        // Assigning the second fetched data
-
-            console.log('Data loaded into gamesData and DJ!');
+            gamesData = data;
             setLatestDateAsDefault();
             populateGameList(gamesData);
+            calculateEloRatings();
         })
         .catch(error => console.error('Error fetching the data:', error));
+
 }
 
 
