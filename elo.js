@@ -5,6 +5,7 @@ function isTwoPlayerGame(gameName, djData) {
     return game["número de jogadores"] === "1-2" || game["número de jogadores"] === "2-2";
 }
 
+
 function calculateEloRatings(gamesData, djData) {
 
     const eloRatings = {};
@@ -28,6 +29,12 @@ function calculateEloRatings(gamesData, djData) {
         if (gamesPlayed <= 20) return 40;
         return 20;
     };
+
+    gamesData.forEach(game => {
+        if (isTwoPlayerGame(game.jogo)) {
+            console.log("Two-player game found:", game.jogo);
+        }
+    });
 
     // Elo Rating calculation
     const computeEloRating = (rating1, rating2, isPlayer1Winner, player1, player2) => {
@@ -100,3 +107,5 @@ gamesData.forEach(game => {
 
 console.log(eloRatings);
 }
+
+window.calculateEloRatings = calculateEloRatings;

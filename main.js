@@ -79,4 +79,3 @@ function populateGameList(data) {
         gamesList.appendChild(option);
     });
 }
-
