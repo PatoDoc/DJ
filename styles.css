@@ -53,9 +53,9 @@ body {
     text-align: center;
 }
 
-#rankingTable tr:first-child {
+/* #rankingTable tr:first-child {
     border-top: 2px solid  white;
-  }
+  } */
 
 #rankingTable th {
     background-color: darkblue;
