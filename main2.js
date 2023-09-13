@@ -34,7 +34,8 @@ window.onload = function() {
         .then(data => {
             gamesData = data;
             setLatestDateAsDefault();
-            populateGameList(gamesData)
+            populateGeneralGameList(gamesData);
+            populateEloGameList(eloRatings);
             calculateEloRatings();
         })
         .catch(error => console.error('Error fetching the data:', error));
@@ -42,12 +43,12 @@ window.onload = function() {
 }
 
 
-function populateGameList(data) {
-    let commonGamesList = document.getElementById('commonGamesList');
+function populateGeneralGameList(data) {
+    let jogoGamesList = document.getElementById('jogoGamesList');
 
     // Clear the current options
-    while (commonGamesList.firstChild) {
-        commonGamesList.removeChild(commonGamesList.firstChild);
+    while (jogoGamesList.firstChild) {
+        jogoGamesList.removeChild(jogoGamesList.firstChild);
     }
 
     let uniqueGames = [...new Set(data.map(match => match.jogo))];
@@ -58,6 +59,6 @@ function populateGameList(data) {
     uniqueGames.forEach(gameName => {
         let option = document.createElement('option');
         option.value = gameName;
-        commonGamesList.appendChild(option);
+        jogoGamesList.appendChild(option);
     });
 }

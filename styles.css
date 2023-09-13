@@ -44,6 +44,7 @@ body {
        padding: 8px 12px;
 }
 
+
 #rankingTable td:nth-child(2) {
     text-align: center;
 }
@@ -52,10 +53,14 @@ body {
     text-align: center;
 }
 
+#rankingTable tr:first-child {
+    border-top: 2px solid  white;
+  }
+
 #rankingTable th {
     background-color: darkblue;
     color: white;
-    border-bottom: 2px solid  white;
+    /* border-bottom: 2px solid  white; */
 }
 
 .performance {

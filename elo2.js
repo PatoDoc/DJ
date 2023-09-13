@@ -1,9 +1,11 @@
+
+
 let eloRatings = {};
 
 function calculateEloRatings() {
 
     // const allGames = gamesData.map(game => game.jogo);
-    const eloRatings = {};
+    // const eloRatings = {};
     const gameCounts = {};
     
     // Function to calculate the probability of winning
@@ -49,7 +51,8 @@ function calculateEloRatings() {
         if (rating1 < 100) newElo1 = Math.max(newElo1, rating1);
         if (rating2 < 100) newElo2 = Math.max(newElo2, rating2);
      
-        return [newElo1, newElo2];
+        return [Math.floor(newElo1), Math.floor(newElo2)];
+
     }
     
     const twoPlayerGames = gamesData.filter(game => ["1-2", "2-2"].includes(game["número de jogadores"]));
@@ -97,33 +100,70 @@ function calculateEloRatings() {
 }
 
 document.getElementById("rankingEloButton").addEventListener("click", function() {
-    populateGameList();
-    document.getElementById("eloSelectionOverlay").style.display = "flex";
+    document.getElementById("commonGamesList").innerHTML = '';
+    
+    populateEloGameList(eloRatings);
+
+    // populateGeneralGameList(gamesData);
+    document.getElementById("commonOverlay").style.display = "flex";
 });
+
 
 // 2. Populate Games in Dropdown
-function populateGameList() {
-    let eloGamesList = document.getElementById("eloGamesList");
-    eloGamesList.innerHTML = '';
-    Object.keys(eloRatings).forEach(gameName => {
+function populateEloGameList() {
+    let commonGamesList = document.getElementById("commonGamesList");
+    commonGamesList.innerHTML = ''; // This will clear the dropdown first
+    // commonGamesList.innerHTML = '<select id="commonGamesList"></select>';
+    
+    // The loop below will populate the dropdown and log each game
+    console.log('eloRatings:', eloRatings);
+
+    Object.keys(eloRatings).sort().forEach(gameName => {
+        console.log("Adding game:", gameName); 
         let option = document.createElement("option");
         option.value = gameName;
-        eloGamesList.appendChild(option);
+        commonGamesList.appendChild(option);
     });
+
+    console.log(commonGamesList.innerHTML);
+
 }
 
+
 // 3. Event Listener for Game Selection
-document.getElementById("submitEloGameName").addEventListener("click", function() {
-    let selectedGame = document.getElementById("eloGameInput").value;
+document.getElementById("submitCommonGameName").addEventListener("click", function() {
+    let selectedGame = document.getElementById("commonGameInput").value;
+
+    let table = document.getElementById('rankingTable');
+    table.style.display = 'block';
+
     displayEloRankings(selectedGame);
-    document.getElementById("eloSelectionOverlay").style.display = "none";
+    document.getElementById("commonOverlay").style.display = "none";
 });
+
 
 // 4. Populate ELO Rankings in Table
 function displayEloRankings(gameName) {
     let rankingTable = document.getElementById("rankingTable").getElementsByTagName("tbody")[0];
+    let table = document.getElementById('rankingTable');
+
+    // Clear existing rows from the table
+    while (table.rows.length > 1) {
+        table.deleteRow(1);
+    }
     rankingTable.innerHTML = '';
-    document.getElementById("tableTitle").textContent = `${gameName}`;
+
+    table.style.display = 'block'
+
+    document.querySelector('#rankingTable th:nth-child(4)').style.display = 'block';
+    document.querySelector('#rankingTable th:nth-child(3)').style.display = 'none';
+    document.querySelector('#rankingTable th:nth-child(2)').style.display = 'none';
+
+    // document.querySelector('#rankingTable th:nth-child(3)').style.opacity = '0';
+    // document.querySelector('#rankingTable th:nth-child(2)').style.opacity = '0';
+
+
+    document.getElementById("tableTitle").textContent = `Ranking - ${gameName}`;
     
     let sortedPlayers = Object.entries(eloRatings[gameName]).sort(([,a],[,b]) => b - a);
 

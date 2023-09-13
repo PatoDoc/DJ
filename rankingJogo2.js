@@ -1,9 +1,10 @@
 document.getElementById('rankingJogoButton').addEventListener('click', function() {
-    document.getElementById('commonOverlay').style.display = 'flex';
+    populateGeneralGameList(gamesData);
+    document.getElementById('jogoOverlay').style.display = 'flex';
 });
 
-document.getElementById('submitCommonGameName').addEventListener('click', function() {
-    let gameName = document.getElementById('commonGameInput').value;
+document.getElementById('submitJogoGameName').addEventListener('click', function() {
+    let gameName = document.getElementById('jogoGameInput').value;
     let minMatches = parseInt(prompt("Insira o número mínimo de partidas que um jogador deve ter disputado:", "1")) || 0;
     if (gameName) {
         let gamePerformance = getPerformance(gamesData, gameName, minMatches);
@@ -13,7 +14,7 @@ document.getElementById('submitCommonGameName').addEventListener('click', functi
 
         displayPerformanceInTable(gamePerformance, minMatches);
         
-        document.getElementById('commonOverlay').style.display = 'none';
+        document.getElementById('jogoOverlay').style.display = 'none'; 
     }
 });
 
@@ -71,8 +72,13 @@ function displayPerformanceInTable(gamePerformance, minMatches) {
         table.deleteRow(1);
     }
 
+   
     document.querySelector('#rankingTable th:nth-child(3)').style.display = 'table-cell';
     document.querySelector('#rankingTable th:nth-child(4)').style.display = 'none';
+   
+
+   
+ 
     
     // Filter, map and sort players
     let sortedPlayers = Object.keys(gamePerformance)

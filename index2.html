@@ -46,22 +46,32 @@
 			<!-- Player rows will be added by the JavaScript -->
 		</tbody>
 		</table>
-		<div id="commonOverlay" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.6); z-index: 1000; align-items: center; justify-content: center;">
-            <div style="background: #fff; padding: 20px; border-radius: 5px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-                <h4>Escolha um jogo:</h4>
-                <input list="commonGamesList" id="commonGameInput" placeholder="Digite o nome do jogo...">
-                <datalist id="commonGamesList">
-                    <!-- JS will populate this with game names based on the function called -->
-                </datalist>
-                <button id="submitCommonGameName">OK</button>
-            </div>
-        </div>
+		<div id="gameSelectionOverlay" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.6); z-index: 1000; align-items: center; justify-content: center;">
+			<div style="background: #fff; padding: 20px; border-radius: 5px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+				<h4>Escolha um jogo:</h4>
+				<input list="gamesList" id="gameInput" placeholder="Digite o nome do jogo...">
+				<datalist id="gamesList">
+					<!-- JS will populate this with game names -->
+				</datalist>
+				<button id="submitGameName">OK</button>
+			</div>
+		</div>
+		<!-- <div id="eloSelectionOverlay" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.6); z-index: 1001; align-items: center; justify-content: center;">
+			<div style="background: #fff; padding: 20px; border-radius: 5px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+				<h4>Escolha um jogo:</h4>
+				<input list="eloGamesList" id="eloGameInput" placeholder="Digite o nome do jogo..."> -->
+				<!-- <datalist id="eloGamesList"> -->
+					<!-- JS will populate this with game names -->
+				<!-- </datalist>
+				<button id="submitEloGameName">OK</button>
+			</div>
+		</div> -->
 		
-<script src="main2.js"></script>
+<script src="main.js"></script>
 <script src="ranking.js"></script>
 <script src="rankingNoite.js"></script>
-<script src="rankingJogo2.js"></script>
+<script src="rankingJogo.js"></script>
 <script src="fetchData.js"></script>
-<script src="elo2.js"></script>
+<!-- <script src="elo.js"></script> -->
 </body>
 </html>
