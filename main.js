@@ -35,6 +35,7 @@ window.onload = function() {
             gamesData = data;
             setLatestDateAsDefault();
             populateGameList(gamesData)
+            calculateEloRatings();
         })
         .catch(error => console.error('Error fetching the data:', error));
 

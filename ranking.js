@@ -33,9 +33,9 @@ function countConsecutiveAbsences(playerName) {
     return absentCount;
 }
 
-function hideThirdColumn() {
-    document.querySelector('#rankingTable th:nth-child(3)').style.display = 'none';
-}
+// function hideThirdColumn() {
+//     document.querySelector('#rankingTable th:nth-child(3)').style.display = 'none';
+// }
 
 function calculatePerformance(playerName) {
     let weightedPlayerVictories = 0;
@@ -63,7 +63,10 @@ function calculatePerformance(playerName) {
 
 function calculatePerformanceForAllPlayers() {
 
-    hideThirdColumn();   
+    // hideThirdColumn();
+
+    document.querySelector('#rankingTable th:nth-child(3)').style.display = 'none';
+    document.querySelector('#rankingTable th:nth-child(4)').style.display = 'none';
 
     // Get a list of all unique players
     let allPlayers = [];
