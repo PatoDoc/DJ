@@ -1,9 +1,9 @@
 document.getElementById('rankingJogoButton').addEventListener('click', function() {
-    document.getElementById('gameSelectionOverlay').style.display = 'flex';
+    document.getElementById('commonOverlay').style.display = 'flex';
 });
 
-document.getElementById('submitGameName').addEventListener('click', function() {
-    let gameName = document.getElementById('gameInput').value;
+document.getElementById('submitCommonGameName').addEventListener('click', function() {
+    let gameName = document.getElementById('commonGameInput').value;
     let minMatches = parseInt(prompt("Insira o número mínimo de partidas que um jogador deve ter disputado:", "1")) || 0;
     if (gameName) {
         let gamePerformance = getPerformance(gamesData, gameName, minMatches);
@@ -13,7 +13,7 @@ document.getElementById('submitGameName').addEventListener('click', function() {
 
         displayPerformanceInTable(gamePerformance, minMatches);
         
-        document.getElementById('gameSelectionOverlay').style.display = 'none';
+        document.getElementById('commonOverlay').style.display = 'none';
     }
 });
 

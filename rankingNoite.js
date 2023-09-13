@@ -51,6 +51,7 @@ function hideThirdColumn() {
 function populateNightTable(performances) {
 
     hideThirdColumn();
+    document.querySelector('#rankingTable th:nth-child(4)').style.display = 'none';
     let table = document.getElementById('rankingTable');
     // table.querySelector('tbody').innerHTML = '';
     // var tableHeaderRowCount = 1;

@@ -119,19 +119,6 @@ function calculatePerformanceForAllPlayers() {
 }
 
 
-// function populateTable(performances) {
-//     let tableBody = document.getElementById('rankingTable').querySelector('tbody');
-//     performances.forEach(player => {
-//         let row = tableBody.insertRow();
-//         let nameCell = row.insertCell(0);
-//         let performanceCell = row.insertCell(1);
-//         performanceCell.className = "performance";
-
-//         nameCell.textContent = player.name;
-//         performanceCell.textContent = player.performance.toFixed(2) + '%';
-//     });
-// }
-
 function setTableTitle() {
     let gameSessions = new Set(gamesData.map(game => game.data));
     let totalGameSessions = gameSessions.size;
