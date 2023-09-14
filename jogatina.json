@@ -50608,5 +50608,77 @@
         "pontuação": "28"
       }
     ]
+  },
+  {
+    "_id": 1916,
+    "data": "13/09/2023",
+    "jogo": "Pax Pamir: Second Edition",
+    "peso": 3.84,
+    "número de jogadores": "1-5",
+    "resultados": [
+      {
+        "jogador": "Alexandre",
+        "colocação": "1",
+        "pontuação": "10"
+      },
+      {
+        "jogador": "Marcondes",
+        "colocação": "2",
+        "pontuação": "3"
+      },
+      {
+        "jogador": "Calil",
+        "colocação": "3",
+        "pontuação": "3"
+      }
+    ]
+  },
+  {
+    "_id": 1917,
+    "data": "13/09/2023",
+    "jogo": "Hadrian's Wall",
+    "peso": 3.11,
+    "número de jogadores": "1-6",
+    "resultados": [
+      {
+        "jogador": "Alexandre",
+        "colocação": "1",
+        "pontuação": "73"
+      },
+      {
+        "jogador": "Marcondes",
+        "colocação": "3",
+        "pontuação": "46"
+      },
+      {
+        "jogador": "Calil",
+        "colocação": "2",
+        "pontuação": "64"
+      }
+    ]
+  },
+  {
+    "_id": 1918,
+    "data": "13/09/2023",
+    "jogo": "L.L.A.M.A.",
+    "peso": 1.05,
+    "número de jogadores": "2-6",
+    "resultados": [
+      {
+        "jogador": "Alexandre",
+        "colocação": "2",
+        "pontuação": "34"
+      },
+      {
+        "jogador": "Marcondes",
+        "colocação": "1",
+        "pontuação": "3"
+      },
+      {
+        "jogador": "Calil",
+        "colocação": "3",
+        "pontuação": "42"
+      }
+    ]
   }
 ]
