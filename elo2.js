@@ -159,9 +159,6 @@ function displayEloRankings(gameName) {
     document.querySelector('#rankingTable th:nth-child(3)').style.display = 'none';
     document.querySelector('#rankingTable th:nth-child(2)').style.display = 'none';
 
-    // document.querySelector('#rankingTable th:nth-child(3)').style.opacity = '0';
-    // document.querySelector('#rankingTable th:nth-child(2)').style.opacity = '0';
-
 
     document.getElementById("tableTitle").textContent = `Ranking - ${gameName}`;
     

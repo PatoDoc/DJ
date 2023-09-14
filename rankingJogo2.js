@@ -64,6 +64,7 @@ function getPerformance(data, gameName, minMatches) {
 }
 
 function displayPerformanceInTable(gamePerformance, minMatches) {
+
     let tableBody = document.getElementById('rankingTable').querySelector('tbody');
     let table = document.getElementById('rankingTable');
     
@@ -71,38 +72,37 @@ function displayPerformanceInTable(gamePerformance, minMatches) {
     while (table.rows.length > 1) {
         table.deleteRow(1);
     }
-
-   
+    
+    document.querySelector('#rankingTable th:nth-child(2)').style.display = 'block';
     document.querySelector('#rankingTable th:nth-child(3)').style.display = 'table-cell';
     document.querySelector('#rankingTable th:nth-child(4)').style.display = 'none';
-   
-
-   
- 
+    
     
     // Filter, map and sort players
     let sortedPlayers = Object.keys(gamePerformance)
-    .filter(playerName => playerName !== 'Coringa' && playerName !== 'Coringa 2')
-    .filter(playerName => gamePerformance[playerName].matchesPlayed >= minMatches)
-    .map(playerName => {
-        return {
-            name: playerName,
-            ...gamePerformance[playerName]
-        };
-    }).sort((a, b) => b.percentage - a.percentage);
-
+        .filter(playerName => playerName !== 'Coringa' && playerName !== 'Coringa 2')
+        .filter(playerName => gamePerformance[playerName].matchesPlayed >= minMatches)
+        .map(playerName => {
+            return {
+                name: playerName,
+                ...gamePerformance[playerName]
+            };
+        }).sort((a, b) => b.percentage - a.percentage);
+    
     sortedPlayers.forEach(player => {
         let row = tableBody.insertRow();
         let cell1 = row.insertCell(0);
         let cell2 = row.insertCell(1);
         let cell3 = row.insertCell(2);
         // let cell4 = row.insertCell(3);
-
+    
         cell1.textContent = player.name;
         cell2.textContent = player.percentage + "%";
         cell3.textContent = player.highestPoints === 0 ? "-" : player.highestPoints;  // Display highest points here
         // let eloRating = getEloRating(player.name, gameName);
         // cell4.textContent = eloRating;
     });
+    
+
 
 }

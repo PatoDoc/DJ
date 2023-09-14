@@ -53,14 +53,10 @@ body {
     text-align: center;
 }
 
-/* #rankingTable tr:first-child {
-    border-top: 2px solid  white;
-  } */
-
 #rankingTable th {
     background-color: darkblue;
     color: white;
-    /* border-bottom: 2px solid  white; */
+
 }
 
 .performance {
