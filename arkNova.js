@@ -49,7 +49,7 @@ function displayResultsInModal(playerNumbers) {
     let textContent = '';
 
     for (const player in playerNumbers) {
-        const numbers = playerNumbers[player].join(' and ');
+        const numbers = playerNumbers[player].join(' e ');
         textContent += `${player}: ${numbers}\n`;
     }
 
@@ -77,7 +77,7 @@ function onArkNovaButtonClick(event) {
     event.preventDefault(); // Prevents the default action of the link
 
     // Ask for the number of players participating
-    let numOfPlayers = prompt("How many players are participating? (Max 4)", "4");
+    let numOfPlayers = prompt("Quantos jogadores estão participando? (Máx. 4)", "4");
     numOfPlayers = Math.min(parseInt(numOfPlayers, 10), 4);
 
     // Check if the input is a number and within the valid range
