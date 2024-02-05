@@ -21,7 +21,7 @@ function assignRandomNumbers() {
 
 // Function to display the numbers beside each player's name
 function displayResults(playerNumbers) {
-    const resultsElement = document.getElementById('results');
+    const resultsElement = document.getElementById('resultsArkNova');
     resultsElement.innerHTML = ''; // Clear previous results
 
     for (const player in playerNumbers) {
