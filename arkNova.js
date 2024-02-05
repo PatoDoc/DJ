@@ -66,4 +66,3 @@ function onArkNovaButtonClick(event) {
 // Attaching the event listener to the Ark Nova button
 document.getElementById('arkNovaButton').addEventListener('click', onArkNovaButtonClick);
 
-document.getElementById('resultModal').style.display = 'block';
