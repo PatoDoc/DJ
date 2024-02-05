@@ -146,7 +146,7 @@ tr {
 
 
 .modal {
-    display: block; /* Temporarily set to block to always show the modal */
+    display: none; /* Temporarily set to block to always show the modal */
     position: fixed;
     top: 0;
     left: 0;
