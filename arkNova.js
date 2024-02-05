@@ -1,7 +1,16 @@
 // List of players - modify this according to your needs
 const players = ["Alexandre", "Calil", "Cid", "Marcondes", "Rafael", "Rodrigo"];
 
-// Function to generate two unique random numbers for each player
+// Function to shuffle an array
+function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+/* Function to generate two unique random numbers for each player
 function assignRandomNumbers() {
     const assignedNumbers = {};
 
@@ -14,6 +23,21 @@ function assignRandomNumbers() {
             }
         }
         assignedNumbers[player] = numbers;
+    });
+
+    return assignedNumbers;
+}
+*/
+
+// Function to generate two unique random numbers for each player
+function assignRandomNumbers() {
+    // Create an array with numbers 1 to 9
+    let numbers = shuffle([...Array(9).keys()].map(x => x + 1));
+
+    const assignedNumbers = {};
+    players.forEach(player => {
+        // Assign two unique numbers to each player from the shuffled array
+        assignedNumbers[player] = [numbers.pop(), numbers.pop()];
     });
 
     return assignedNumbers;
