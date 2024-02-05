@@ -57,6 +57,7 @@ document.querySelector('.close-button').addEventListener('click', closeModal);
 
 // Function to be called when the Ark Nova button is clicked
 function onArkNovaButtonClick(event) {
+    console.log("Button clicked");
     event.preventDefault(); // Prevents the default action of the link
     const playerNumbers = assignRandomNumbers();
     displayResultsInModal(playerNumbers);
