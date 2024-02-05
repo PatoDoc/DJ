@@ -33,20 +33,6 @@ function displayResultsInModal(playerNumbers) {
     document.getElementById('resultModal').style.display = 'block';
 }
 
-
-
-/* Function to display results in a modal
-function displayResultsInModal(playerNumbers) {
-    const modalText = document.getElementById('modalText');
-    modalText.innerHTML = ''; // Clear previous content
-
-    for (const player in playerNumbers) {
-        const numbers = playerNumbers[player].join(' e ');
-        modalText.innerHTML += `${player}: ${numbers}<br>`; // Using <br> for line breaks
-    }
-}
-*/
-
 // Function to close the modal
 function closeModal() {
     document.getElementById('resultModal').style.display = 'none';
@@ -57,7 +43,6 @@ document.querySelector('.close-button').addEventListener('click', closeModal);
 
 // Function to be called when the Ark Nova button is clicked
 function onArkNovaButtonClick(event) {
-    console.log("Button clicked");
     event.preventDefault(); // Prevents the default action of the link
     const playerNumbers = assignRandomNumbers();
     displayResultsInModal(playerNumbers);
@@ -65,4 +50,3 @@ function onArkNovaButtonClick(event) {
 
 // Attaching the event listener to the Ark Nova button
 document.getElementById('arkNovaButton').addEventListener('click', onArkNovaButtonClick);
-
