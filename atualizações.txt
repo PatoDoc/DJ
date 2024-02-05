@@ -2,6 +2,8 @@
 #Atualizações do site.#
 #######################
 
+11. 5/2/24: Novo menu suspenso "Ferramentas" e criação de uma ferramenta para sortear mapas em Ark Nova.
+
 10. 1/9/23: conserto de bug que fazia a 3ª coluna da tabela de ranking por jogo aparecer nas outras também.
 ---
 9. 1/9/23: adição da coluna Máximo de pontos' no ranking por jogo.

@@ -1,7 +1,8 @@
-Menu dropdown para os botões da barra superior.
 Melhorar layout para smartphone e tablets.
 Reformular formatação geral so site e fazer versões separadas para smartphone e tablets.
 Arrumar o CSS.
 Alterar a coluna 'máximo de pontos' do ranking por jogo e colocar 'melhor pontuação'
 _ e fazer com que o código identifique os jogos que menor pontuação seja melhor.
 _ Para isso colocar na lista de jogos uma entrada com 'forma de viória'.
+Melhorar a ferramenta sorteador de ark nova.
+Criar ferramenta genérica "sorteador" ou "setup inicial" onde se possa escolher para qual jogo.
