@@ -8,7 +8,7 @@ function assignRandomNumbers() {
     players.forEach(player => {
         let numbers = [];
         while (numbers.length < 2) {
-            let randomNumber = Math.floor(Math.random() * 8) + 1;
+            let randomNumber = Math.floor(Math.random() * 9) + 1;
             if (!numbers.includes(randomNumber)) {
                 numbers.push(randomNumber);
             }
@@ -19,16 +19,19 @@ function assignRandomNumbers() {
     return assignedNumbers;
 }
 
-// Function to display the numbers beside each player's name
-function displayResults(playerNumbers) {
-    const resultsElement = document.getElementById('resultsArkNova');
-    resultsElement.innerHTML = ''; // Clear previous results
+// Function to display the numbers in a table beside each player's name
+function displayResultsInTable(playerNumbers) {
+    const resultsTableBody = document.getElementById('resultsTableBody');
+    resultsTableBody.innerHTML = ''; // Clear previous results
 
     for (const player in playerNumbers) {
         const numbers = playerNumbers[player].join(' and ');
-        const playerElement = document.createElement('div');
-        playerElement.textContent = `${player}: ${numbers}`;
-        resultsElement.appendChild(playerElement);
+        const row = resultsTableBody.insertRow();
+        const playerNameCell = row.insertCell(0);
+        const numbersCell = row.insertCell(1);
+
+        playerNameCell.textContent = player;
+        numbersCell.textContent = numbers;
     }
 }
 
@@ -36,7 +39,7 @@ function displayResults(playerNumbers) {
 function onArkNovaButtonClick(event) {
     event.preventDefault(); // Prevents the default action of the link
     const playerNumbers = assignRandomNumbers();
-    displayResults(playerNumbers);
+    displayResultsInTable(playerNumbers);
 }
 
 // Attaching the event listener to the Ark Nova button
