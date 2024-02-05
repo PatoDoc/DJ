@@ -19,27 +19,33 @@ function assignRandomNumbers() {
     return assignedNumbers;
 }
 
-// Function to display the numbers in a table beside each player's name
-function displayResultsInTable(playerNumbers) {
-    const resultsTableBody = document.getElementById('resultsTableBody');
-    resultsTableBody.innerHTML = ''; // Clear previous results
+// Function to display results in a modal
+function displayResultsInModal(playerNumbers) {
+    const modalText = document.getElementById('modalText');
+    let textContent = '';
 
     for (const player in playerNumbers) {
         const numbers = playerNumbers[player].join(' and ');
-        const row = resultsTableBody.insertRow();
-        const playerNameCell = row.insertCell(0);
-        const numbersCell = row.insertCell(1);
-
-        playerNameCell.textContent = player;
-        numbersCell.textContent = numbers;
+        textContent += `${player}: ${numbers}\n`;
     }
+
+    modalText.textContent = textContent;
+    document.getElementById('resultModal').style.display = 'block';
 }
+
+// Function to close the modal
+function closeModal() {
+    document.getElementById('resultModal').style.display = 'none';
+}
+
+// Attaching event listener to the close button of the modal
+document.querySelector('.close-button').addEventListener('click', closeModal);
 
 // Function to be called when the Ark Nova button is clicked
 function onArkNovaButtonClick(event) {
     event.preventDefault(); // Prevents the default action of the link
     const playerNumbers = assignRandomNumbers();
-    displayResultsInTable(playerNumbers);
+    displayResultsInModal(playerNumbers);
 }
 
 // Attaching the event listener to the Ark Nova button
