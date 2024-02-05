@@ -32,7 +32,7 @@ function assignRandomNumbers() {
 // Function to generate two unique random numbers for each player
 function assignRandomNumbers() {
     // Create an array with numbers 1 to 9
-    let numbers = shuffle([...Array(9).keys()].map(x => x + 1));
+    let numbers = shuffle([...Array(8).keys()].map(x => x + 1));
 
     const assignedNumbers = {};
     players.forEach(player => {
