@@ -19,7 +19,7 @@ function assignRandomNumbers() {
     return assignedNumbers;
 }
 
-// Function to display results in a modal
+/* Function to display results in a modal
 function displayResultsInModal(playerNumbers) {
     const modalText = document.getElementById('modalText');
     let textContent = '';
@@ -32,6 +32,20 @@ function displayResultsInModal(playerNumbers) {
     modalText.textContent = textContent;
     document.getElementById('resultModal').style.display = 'block';
 }
+
+*/
+
+// Function to display results in a modal
+function displayResultsInModal(playerNumbers) {
+    const modalText = document.getElementById('modalText');
+    modalText.innerHTML = ''; // Clear previous content
+
+    for (const player in playerNumbers) {
+        const numbers = playerNumbers[player].join(' e ');
+        modalText.innerHTML += `${player}: ${numbers}<br>`; // Using <br> for line breaks
+    }
+}
+
 
 // Function to close the modal
 function closeModal() {
