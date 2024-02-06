@@ -132,6 +132,9 @@ function onSubmitPlayersClick(event) {
         return;
     }
 
+    // Hide the player selection checkboxes
+    document.getElementById('playerSelection').style.display = 'none';
+
     // Generate random numbers for the selected players
     const playerNumbers = assignRandomNumbersForSelectedPlayers(selectedPlayers);
     displayResultsInModal(playerNumbers);
