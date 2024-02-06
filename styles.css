@@ -164,7 +164,7 @@ tr {
 }
 
 .modal-content {
-    background-color: #fefefe;
+    background-color: lightgreen;
     margin: 5% auto;
     padding: 20px;
     border: 1px solid #888;
@@ -187,7 +187,11 @@ tr {
 
 #playerSelection {
     display: none;
-    margin: 20px;
+    display: none; /* other existing styles... */
+    background-color: lightgreen; /* set the background color */
+    padding: 10px; /* optional: for some spacing around the content */
+    border-radius: 5px; /* optional: for rounded corners */
+    /* Add any other styling as needed */
 }
 
 #playerSelection label {
