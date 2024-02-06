@@ -181,6 +181,7 @@ tr {
 }
 
 #playerSelection {
+    display: none;
     margin: 20px;
 }
 

@@ -103,6 +103,14 @@ function onArkNovaButtonClick(event) {
     displayResultsInModal(playerNumbers);
 } */
 
+// Function to be called when the Ark Nova button is clicked
+function onArkNovaButtonClick(event) {
+    event.preventDefault(); // Prevents the default action of the link
+
+    // Show the player selection checkboxes
+    document.getElementById('playerSelection').style.display = 'block';
+}
+
 // Function to be called when the Submit button is clicked after selecting players
 function onSubmitPlayersClick(event) {
     const checkboxes = document.querySelectorAll('input[name="player"]:checked');
@@ -129,6 +137,13 @@ function onSubmitPlayersClick(event) {
     displayResultsInModal(playerNumbers);
 }
 
+// Function to close the modal
+function closeModal() {
+    document.getElementById('resultModal').style.display = 'none';
+    // Optionally show the playerSelection again if you want to allow another draw
+    // document.getElementById('playerSelection').style.display = 'block';
+}
+
 // Attaching the event listener to the Submit button
 document.getElementById('submitPlayers').addEventListener('click', onSubmitPlayersClick);
 
@@ -147,6 +162,8 @@ function assignRandomNumbersForSelectedPlayers(selectedPlayers) {
     return assignedNumbers;
 }
 
-
-// Attaching the event listener to the Ark Nova button
+// Attaching the event listeners
 document.getElementById('arkNovaButton').addEventListener('click', onArkNovaButtonClick);
+document.getElementById('submitPlayers').addEventListener('click', onSubmitPlayersClick);
+document.querySelector('.close-button').addEventListener('click', closeModal);
+
