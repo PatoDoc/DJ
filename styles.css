@@ -202,7 +202,7 @@ tr {
 /* Container that holds the iframe */
 .container {
     width: 900px;  /* Set this to match the iframe's width */
-    height: 900px; /* Set this to match the iframe's height */
+    height: 400px; /* Set this to match the iframe's height */
     padding: 20px 0;    /* Adjust padding as needed */
     overflow: hidden; /* Hide any overflow */
     background-color: lightgreen;
