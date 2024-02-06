@@ -199,3 +199,13 @@ tr {
     margin: 5px 0;
 }
 
+#roletaDeJogos {
+    display: none; /* Hidden by default */
+    background-color: #fff; /* Change as needed */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Optional */
+    text-align: center;
+    /* Add more styling as needed */
+}
