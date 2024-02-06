@@ -72,7 +72,7 @@ document.querySelector('.close-button').addEventListener('click', closeModal);
 //    displayResultsInModal(playerNumbers);
 //}
 
-// Function to be called when the Ark Nova button is clicked
+/* // Function to be called when the Ark Nova button is clicked
 function onArkNovaButtonClick(event) {
     event.preventDefault(); // Prevents the default action of the link
 
@@ -101,7 +101,37 @@ function onArkNovaButtonClick(event) {
     // Generate random numbers for the selected players
     const playerNumbers = assignRandomNumbersForSelectedPlayers(selectedPlayers);
     displayResultsInModal(playerNumbers);
+} */
+
+// Function to be called when the Submit button is clicked after selecting players
+function onSubmitPlayersClick(event) {
+    const checkboxes = document.querySelectorAll('input[name="player"]:checked');
+    let selectedPlayers = [];
+
+    checkboxes.forEach((checkbox) => {
+        selectedPlayers.push(checkbox.value);
+    });
+
+    // Ensure there are at most 4 players
+    if (selectedPlayers.length > 4) {
+        alert("Please select no more than 4 players.");
+        return;
+    }
+
+    // Ensure that some players are selected
+    if (selectedPlayers.length === 0) {
+        alert("Please select at least one player.");
+        return;
+    }
+
+    // Generate random numbers for the selected players
+    const playerNumbers = assignRandomNumbersForSelectedPlayers(selectedPlayers);
+    displayResultsInModal(playerNumbers);
 }
+
+// Attaching the event listener to the Submit button
+document.getElementById('submitPlayers').addEventListener('click', onSubmitPlayersClick);
+
 
 // New function to assign random numbers to selected players
 function assignRandomNumbersForSelectedPlayers(selectedPlayers) {

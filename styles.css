@@ -179,3 +179,13 @@ tr {
     text-decoration: none;
     cursor: pointer;
 }
+
+#playerSelection {
+    margin: 20px;
+}
+
+#playerSelection label {
+    display: block;
+    margin: 5px 0;
+}
+
