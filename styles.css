@@ -6,6 +6,11 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-image: url('background.webp'); /* Replace with the path to your image */
+    background-size: cover; /* This will ensure the image covers the entire page */
+    background-repeat: no-repeat; /* The image will not repeat */
+    background-attachment: fixed; /* The image will not scroll with the page */
+    background-position: center; /* The image will be centered */
 }
 
 #tableTitle {
