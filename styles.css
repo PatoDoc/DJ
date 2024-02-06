@@ -201,7 +201,7 @@ tr {
 
 #roletaDeJogos {
     display: none; /* Hidden by default */
-    background-color: #fff; /* Change as needed */
+    background-color: lightgreen; /* Change as needed */
     padding: 20px;
     margin: 20px 0;
     border-radius: 10px;
