@@ -199,13 +199,18 @@ tr {
     margin: 5px 0;
 }
 
-#roletaDeJogos {
-    display: none; /* Hidden by default */
-    background-color: lightgreen; /* Change as needed */
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Optional */
-    text-align: center;
-    /* Add more styling as needed */
+/* Container that holds the iframe */
+.container {
+    width: 600px;  /* Set this to match the iframe's width */
+    height: 500px; /* Set this to match the iframe's height */
+    padding: 0;    /* Adjust padding as needed */
+    overflow: hidden; /* Hide any overflow */
+    /* Add any additional styling such as border, background-color, etc. */
+}
+
+/* The iframe itself */
+iframe {
+    width: 100%;  /* Make the iframe fill the container */
+    height: 100%; /* Make the iframe fill the container */
+    border: none; /* Remove default border */
 }
