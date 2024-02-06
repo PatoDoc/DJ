@@ -43,7 +43,7 @@ function assignRandomNumbers() {
     return assignedNumbers;
 }
 
-// Function to display results in a modal
+/* // Function to display results in a modal
 function displayResultsInModal(playerNumbers) {
     const modalText = document.getElementById('modalText');
     let textContent = '';
@@ -55,6 +55,21 @@ function displayResultsInModal(playerNumbers) {
 
     modalText.textContent = textContent;
     document.getElementById('resultModal').style.display = 'block';
+} */
+
+// Function to display results in a modal
+function displayResultsInModal(playerNumbers) {
+    const modalText = document.getElementById('modalText');
+    modalText.innerHTML = ''; // Clear previous content
+
+    for (const player in playerNumbers) {
+        const numbers = playerNumbers[player].join(' and ');
+        const playerInfo = document.createElement('p'); // Create a new paragraph for each player
+        playerInfo.textContent = `${player}: ${numbers}`;
+        modalText.appendChild(playerInfo); // Append the paragraph to the modal content
+    }
+
+    document.getElementById('resultModal').style.display = 'block'; // Show the modal
 }
 
 // Function to close the modal
