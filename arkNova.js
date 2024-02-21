@@ -184,7 +184,7 @@ function displayResultsInModal(playerMaps) {
         // Se este jogador for o primeiro jogador, adiciona a nota
         if (player === firstPlayer) {
             const firstPlayerNote = document.createElement('span');
-            firstPlayerNote.textContent = ' - Primeiro Jogador';
+            firstPlayerNote.textContent = ' - First Player';
             firstPlayerNote.style.fontWeight = 'bold';
             playerInfo.appendChild(firstPlayerNote);
         }
