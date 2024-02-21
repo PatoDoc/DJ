@@ -128,7 +128,7 @@ document.querySelector('.close-button').addEventListener('click', closeModal);
 // Lista de jogadores - modifique de acordo com suas necessidades
 const players = ["Alexandre", "Calil", "Cid", "Marcondes", "Rafael", "Rodrigo", "Thayane"];
 
-const mapNames = ["Torre de Observação (1)", "Área Externa (2)", "Mapa 3", "Porto Comercial (4)", "Restaurante (5)", "Instituto de Pesquisa (6)",
+const mapNames = ["Torre de Observação (1)", "Área Externa (2)", "Lago Prateado (3)", "Porto Comercial (4)", "Restaurante (5)", "Instituto de Pesquisa (6)",
     "Salões de Sorvete (7)", "Montanhas de Hollywood (8)"];
 
 function clearPlayerSelections() {
@@ -156,7 +156,7 @@ function getMapNames() {
     let currentMapNames = [...mapNames];
     // Se o checkbox estiver marcado, adiciona mapas promocionais
     if (includePromo) {
-        currentMapNames.push("Promo Map 1", "Promo Map 2"); // Adicione seus mapas promocionais aqui
+        currentMapNames.push("Zoológico Geográfico (9)", "Estação de Resgate (10)"); // Adicione seus mapas promocionais aqui
     }
     return currentMapNames;
 }
