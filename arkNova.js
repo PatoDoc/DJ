@@ -131,6 +131,14 @@ const players = ["Alexandre", "Calil", "Cid", "Marcondes", "Rafael", "Rodrigo", 
 const mapNames = ["Torre de Observação (1)", "Área Externa (2)", "Mapa 3", "Porto Comercial (4)", "Restaurante (5)", "Instituto de Pesquisa (6)",
     "Salões de Sorvete (7)", "Montanhas de Hollywood (8)"];
 
+    function clearPlayerSelections() {
+        const checkboxes = document.querySelectorAll('input[name="player"]');
+        checkboxes.forEach(checkbox => {
+            checkbox.checked = false;
+        });
+    }
+        
+
 // Função para embaralhar um array
 function shuffle(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -206,6 +214,7 @@ document.querySelector('.close-button').addEventListener('click', closeModal);
 // Função a ser chamada quando o botão Ark Nova é clicado
 function onArkNovaButtonClick(event) {
     event.preventDefault(); // Previne a ação padrão do link
+    clearPlayerSelections(); // Limpa os checkboxes
 
     // Mostra as caixas de seleção dos jogadores
     document.getElementById('playerSelection').style.display = 'block';
