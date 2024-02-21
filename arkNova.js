@@ -131,12 +131,19 @@ const players = ["Alexandre", "Calil", "Cid", "Marcondes", "Rafael", "Rodrigo", 
 const mapNames = ["Torre de Observação (1)", "Área Externa (2)", "Mapa 3", "Porto Comercial (4)", "Restaurante (5)", "Instituto de Pesquisa (6)",
     "Salões de Sorvete (7)", "Montanhas de Hollywood (8)"];
 
-    function clearPlayerSelections() {
-        const checkboxes = document.querySelectorAll('input[name="player"]');
-        checkboxes.forEach(checkbox => {
-            checkbox.checked = false;
-        });
+function clearAllSelections() {
+    // Limpa os checkboxes dos jogadores
+    const playerCheckboxes = document.querySelectorAll('input[name="player"]');
+    playerCheckboxes.forEach(checkbox => {
+        checkbox.checked = false;
+    });
+    
+    // Limpa o checkbox "Incluir mapas promo?"
+    const promoMapCheckbox = document.getElementById('includePromoMaps');
+    if (promoMapCheckbox) {
+        promoMapCheckbox.checked = false;
     }
+}
         
 
 // Função para embaralhar um array
