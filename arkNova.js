@@ -128,8 +128,8 @@ document.querySelector('.close-button').addEventListener('click', closeModal);
 // Lista de jogadores - modifique de acordo com suas necessidades
 const players = ["Alexandre", "Calil", "Cid", "Marcondes", "Rafael", "Rodrigo", "Thayane"];
 
-// Lista de nomes de mapas
-const mapNames = ["Maple Town", "Sunny Fields", "Misty Vales", "Crystal Lake", "Golden Forest", "Silver Mountain", "Emerald Bay", "Ruby Hills"];
+const mapNames = ["Torre de Observação (1)", "Área Externa (2)", "Mapa 3", "Porto Comercial (4)", "Restaurante (5)", "Instituto de Pesquisa (6)",
+    "Salões de Sorvete (7)", "Montanhas de Hollywood (8)"];
 
 // Função para embaralhar um array
 function shuffle(array) {
