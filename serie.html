@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Workout Checklist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: yellow;
+        }
+        .exercise {
+            margin-bottom: 10px;
+        }
+        button {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Full Body Workout Checklist</h2>
+    <div class="exercise">
+        <input type="checkbox" id="exercise1">
+        <label for="exercise1">Leg Press</label>
+    </div>
+    <div class="exercise">
+        <input type="checkbox" id="exercise2">
+        <label for="exercise2">Chest Press</label>
+    </div>
+    <div class="exercise">
+        <input type="checkbox" id="exercise3">
+        <label for="exercise3">Lat Pulldown</label>
+    </div>
+    <div class="exercise">
+        <input type="checkbox" id="exercise4">
+        <label for="exercise4">Shoulder Press</label>
+    </div>
+    <div class="exercise">
+        <input type="checkbox" id="exercise5">
+        <label for="exercise5">Leg Curl</label>
+    </div>
+    <div class="exercise">
+        <input type="checkbox" id="exercise6">
+        <label for="exercise6">Seated Row</label>
+    </div>
+    
+    <button onclick="resetChecklist()">Reset Checklist</button>
+
+    <script>
+        function resetChecklist() {
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            checkboxes.forEach(checkbox => checkbox.checked = false);
+        }
+    </script>
+</body>
+</html>
