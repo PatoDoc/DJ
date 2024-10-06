@@ -8,7 +8,7 @@
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
-            background-color: yellow;
+            background-color: #e0f7fa;
         }
         .exercise {
             margin-bottom: 10px;
@@ -17,14 +17,14 @@
             margin-top: 20px;
             padding: 15px 25px;
             font-size: 18px;
-            background-color: black;
-            color: yellow;
+            background-color: #00796b;
+            color: #e0f7fa;
             border: none;
             cursor: pointer;
             border-radius: 5px;
         }
         button:hover {
-            background-color: #333;
+            background-color: #004d40;
         }
     </style>
 </head>
@@ -78,9 +78,24 @@
     <button onclick="resetChecklist()">Reseta lista</button>
 
     <script>
+        // Load the checkbox states from localStorage
+        document.addEventListener("DOMContentLoaded", () => {
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            checkboxes.forEach(checkbox => {
+                const checked = localStorage.getItem(checkbox.id) === 'true';
+                checkbox.checked = checked;
+                checkbox.addEventListener('change', () => {
+                    localStorage.setItem(checkbox.id, checkbox.checked);
+                });
+            });
+        });
+
         function resetChecklist() {
             const checkboxes = document.querySelectorAll('input[type="checkbox"]');
-            checkboxes.forEach(checkbox => checkbox.checked = false);
+            checkboxes.forEach(checkbox => {
+                checkbox.checked = false;
+                localStorage.setItem(checkbox.id, false);
+            });
         }
     </script>
 </body>
