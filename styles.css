@@ -201,6 +201,7 @@ tr {
 
 #playerSelectionGen {
     display: none;
+    display: none; /* other existing styles... */
     background-color: lightblue; /* set the background color */
     padding: 10px; /* optional: for some spacing around the content */
     border-radius: 5px; /* optional: for rounded corners */
@@ -214,6 +215,7 @@ tr {
 
 #playerSelectionGWT {
     display: none;
+    display: none; /* other existing styles... */
     background-color: lightblue; /* set the background color */
     padding: 10px; /* optional: for some spacing around the content */
     border-radius: 5px; /* optional: for rounded corners */
