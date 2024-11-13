@@ -199,6 +199,33 @@ tr {
     margin: 5px 0;
 }
 
+#playerSelectionGen {
+    display: none;
+    background-color: lightblue; /* set the background color */
+    padding: 10px; /* optional: for some spacing around the content */
+    border-radius: 5px; /* optional: for rounded corners */
+    /* Add any other styling as needed */
+}
+
+#playerSelectionGen label {
+    display: block;
+    margin: 5px 0;
+}
+
+#playerSelectionGWT {
+    display: none;
+    background-color: lightblue; /* set the background color */
+    padding: 10px; /* optional: for some spacing around the content */
+    border-radius: 5px; /* optional: for rounded corners */
+    /* Add any other styling as needed */
+}
+
+#playerSelectionGWT label {
+    display: block;
+    margin: 5px 0;
+}
+
+
 /* Container that holds the iframe */
 .container {
     width: 900px;  /* Set this to match the iframe's width */

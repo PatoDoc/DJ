@@ -28,6 +28,8 @@
 			<button class="dropbtn" type="button">Ferramentas</button>
 			<div class="dropdown-content">
 				<a href="#" id="arkNovaButton">Sorteador Ark Nova</a>
+				<a href="#" id="gwtButton">Sorteador Great Western Trail</a>
+				<a href="#" id="tiranosButton">Sorteador Tiranos de Umbreterna</a>
 				<a href="#" id="roletaButton">Roleta de Jogos - em testes</a>
 			</div>
 		</div>
@@ -78,7 +80,7 @@
             </div>
         </div>
 
-		<!-- Player Selection -->
+		<!-- Player Selection Ark Nova-->
 		<div id="playerSelection">
 			<h3>Selecione os jogadores:</h3>
 			<label><input type="checkbox" name="player" value="Alexandre"> Alexandre</label>
@@ -93,6 +95,35 @@
 		</div>
 		<br>
 			<button id="submitPlayers">Submit</button>
+		</div>
+		
+	<!-- Player Selection for Great Western Trail -->
+	<div id="playerSelectionGWT">
+		<h3>Selecione os jogadores:</h3>
+		<label><input type="checkbox" name="player" value="Alexandre"> Alexandre</label>
+		<label><input type="checkbox" name="player" value="Calil"> Calil</label>
+		<label><input type="checkbox" name="player" value="Cid"> Cid</label>
+		<label><input type="checkbox" name="player" value="Marcondes"> Marcondes</label>
+		<label><input type="checkbox" name="player" value="Rafael"> Rafael</label>
+		<label><input type="checkbox" name="player" value="Rodrigo"> Rodrigo</label>
+		<label><input type="checkbox" name="player" value="Thayane"> Thayane</label>
+    <br>
+    <button id="submitPlayersGWT">Submit</button>
+	</div>
+
+
+		<!-- Player Selection Genérico-->
+		<div id="playerSelectionGen">
+			<h3>Selecione os jogadores:</h3>
+			<label><input type="checkbox" name="player" value="Alexandre"> Alexandre</label>
+			<label><input type="checkbox" name="player" value="Calil"> Calil</label>
+			<label><input type="checkbox" name="player" value="Cid"> Cid</label>
+			<label><input type="checkbox" name="player" value="Marcondes"> Marcondes</label>
+			<label><input type="checkbox" name="player" value="Rafael"> Rafael</label>
+			<label><input type="checkbox" name="player" value="Rodrigo"> Rodrigo</label>
+			<label><input type="checkbox" name="player" value="Thayane"> Thayane</label>
+		<br>
+			<button id="submitPlayersGen">Submit</button>
 		</div>
 
 
@@ -123,6 +154,8 @@
 <!-- <script src="fetchData.js"></script> -->
 <script src="elo2.js"></script>
 <script src="arkNova.js"></script>
+<script src="gwt.js"></script>
+<script src="tiranos.js"></script>
 <script src="roleta.js"></script>
 
 </body>
