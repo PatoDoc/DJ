@@ -1,4 +1,4 @@
-function countConsecutiveAbsences(playerName) {
+function RCcountConsecutiveAbsences(playerName) {
     let absentCount = 0;
 
     // Extract the unique dates (game sessions) and reverse them to start with the most recent
@@ -8,7 +8,7 @@ function countConsecutiveAbsences(playerName) {
     // console.log(`Total unique sessions: ${uniqueSessions.length}`);
 
     // Considering only the last 10 sessions
-    for (let i = 0; i < Math.min(11, uniqueSessions.length); i++) {
+    for (let i = 0; i < Math.min(1, uniqueSessions.length); i++) {
         let session = uniqueSessions[i];
 
         // Get all games for the current session
@@ -37,7 +37,7 @@ function countConsecutiveAbsences(playerName) {
 //     document.querySelector('#rankingTable th:nth-child(3)').style.display = 'none';
 // }
 
-function calculatePerformance(playerName) {
+function RCcalculatePerformance(playerName) {
     let weightedPlayerVictories = 0;
     let weightedTotalMiniMatches = 0;
     let gamesCounted = 0;
@@ -61,7 +61,7 @@ function calculatePerformance(playerName) {
     return (weightedPlayerVictories / weightedTotalMiniMatches) * 100;
 }
 
-function calculatePerformanceForAllPlayers() {
+function RCcalculatePerformanceForAllPlayers() {
 
     // hideThirdColumn();
 
@@ -82,9 +82,9 @@ function calculatePerformanceForAllPlayers() {
 
     // For each unique player, calculate performance
     allPlayers.forEach(player => {
-        let consecutiveAbsences = countConsecutiveAbsences(player);
+        let consecutiveAbsences = RCcountConsecutiveAbsences(player);
         if (consecutiveAbsences <= 10) {
-            let performance = calculatePerformance(player);
+            let performance = RCcalculatePerformance(player);
             playersPerformance.push({ name: player, performance: performance });
         }
     });
@@ -124,14 +124,14 @@ function calculatePerformanceForAllPlayers() {
 }
 
 
-function setTableTitle() {
+function RCsetTableTitle() {
     let gameSessions = new Set(gamesData.map(game => game.data));
     let totalGameSessions = gameSessions.size;
     document.getElementById('tableTitle').innerText = `Ranking da Jogatina nº ${totalGameSessions}`;
 }
 
 // Your event listener for the 'rankingButton' button
-document.getElementById('rankingButton').addEventListener('click', function() {
+document.getElementById('RC_rankingButton').addEventListener('click', function() {
     let table = document.getElementById('rankingTable');
     
     // if (table.style.display === 'none' || table.style.display === '') {
@@ -139,11 +139,11 @@ document.getElementById('rankingButton').addEventListener('click', function() {
             console.error('Data is not yet loaded. Please try again in a few seconds.');
             return;
         }
-        calculatePerformanceForAllPlayers();
-        setTableTitle()
+        RCcalculatePerformanceForAllPlayers();
+        RCsetTableTitle()
     // }
     if (table.style.display === 'none' || table.style.display === '') {
-        calculatePerformanceForAllPlayers();
-        setTableTitle();
+        RCcalculatePerformanceForAllPlayers();
+        RCsetTableTitle();
     }
 });
