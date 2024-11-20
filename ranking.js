@@ -8,7 +8,7 @@ function countConsecutiveAbsences(playerName) {
     // console.log(`Total unique sessions: ${uniqueSessions.length}`);
 
     // Considering only the last 10 sessions
-    for (let i = 0; i < Math.min(11, uniqueSessions.length); i++) {
+    for (let i = 0; i < Math.min(400, uniqueSessions.length); i++) {
         let session = uniqueSessions[i];
 
         // Get all games for the current session
