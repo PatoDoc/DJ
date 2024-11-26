@@ -31780,7 +31780,7 @@
         "pontuação": "-"
       },
       {
-        "jogador": "Coringa",
+        "jogador": "Alessandra",
         "colocação": "5",
         "pontuação": "-"
       }
@@ -31818,7 +31818,7 @@
         "pontuação": "-"
       },
       {
-        "jogador": "Coringa",
+        "jogador": "Alessandra",
         "colocação": "4",
         "pontuação": "-"
       }
@@ -31856,7 +31856,7 @@
         "pontuação": "-"
       },
       {
-        "jogador": "Coringa",
+        "jogador": "Alessandra",
         "colocação": "6",
         "pontuação": "-"
       }
@@ -31894,7 +31894,7 @@
         "pontuação": "-"
       },
       {
-        "jogador": "Coringa",
+        "jogador": "Alessandra",
         "colocação": "6",
         "pontuação": "-"
       }
@@ -31932,7 +31932,7 @@
         "pontuação": "-"
       },
       {
-        "jogador": "Coringa",
+        "jogador": "Alessandra",
         "colocação": "5",
         "pontuação": "-"
       }
@@ -31970,7 +31970,7 @@
         "pontuação": "-"
       },
       {
-        "jogador": "Coringa",
+        "jogador": "Alessandra",
         "colocação": "1",
         "pontuação": "-"
       }
@@ -32008,7 +32008,7 @@
         "pontuação": "-"
       },
       {
-        "jogador": "Coringa",
+        "jogador": "Alessandra",
         "colocação": "4",
         "pontuação": "-"
       }
@@ -32046,7 +32046,7 @@
         "pontuação": "-"
       },
       {
-        "jogador": "Coringa",
+        "jogador": "Alessandra",
         "colocação": "5",
         "pontuação": "-"
       }
@@ -32084,7 +32084,7 @@
         "pontuação": "-"
       },
       {
-        "jogador": "Coringa",
+        "jogador": "Alessandra",
         "colocação": "2",
         "pontuação": "-"
       }
@@ -32122,7 +32122,7 @@
         "pontuação": "-"
       },
       {
-        "jogador": "Coringa",
+        "jogador": "Alessandra",
         "colocação": "5",
         "pontuação": "-"
       }
@@ -33960,7 +33960,7 @@
         "pontuação": "-"
       },
       {
-        "jogador": "Coringa",
+        "jogador": "Alessandra",
         "colocação": "1",
         "pontuação": "-"
       }
@@ -57386,6 +57386,213 @@
         "jogador": "Rodrigo",
         "colocação": "2",
         "pontuação": ""
+      }
+    ]
+  },
+  {
+    "_id": 2274,
+    "data": "20/11/2024",
+    "jogo": "Sea Salt & Paper",
+    "peso": 1.43,
+    "resultados": [
+      {
+        "jogador": "Alexandre",
+        "colocação": "1",
+        "pontuação": "41"
+      },
+      {
+        "jogador": "Rodrigo",
+        "colocação": "2",
+        "pontuação": "39"
+      }
+    ]
+  },
+  {
+    "_id": 2275,
+    "data": "20/11/2024",
+    "jogo": "Star Wars: Bounty Hunters",
+    "peso": 1.4,
+    "resultados": [
+      {
+        "jogador": "Alexandre",
+        "colocação": "1",
+        "pontuação": "40"
+      },
+      {
+        "jogador": "Rodrigo",
+        "colocação": "2",
+        "pontuação": "19"
+      }
+    ]
+  },
+  {
+    "_id": 2276,
+    "data": "20/11/2024",
+    "jogo": "Ark Nova",
+    "peso": 3.77,
+    "resultados": [
+      {
+        "jogador": "Alexandre",
+        "colocação": "3",
+        "pontuação": "-9"
+      },
+      {
+        "jogador": "Rodrigo",
+        "colocação": "2",
+        "pontuação": "-7"
+      },
+      {
+        "jogador": "Marcondes",
+        "colocação": "1",
+        "pontuação": "23"
+      }
+    ]
+  },
+  {
+    "_id": 2277,
+    "data": "20/11/2024",
+    "jogo": "Terraforming Mars",
+    "peso": 3.26,
+    "resultados": [
+      {
+        "jogador": "Alexandre",
+        "colocação": "1",
+        "pontuação": "130"
+      },
+      {
+        "jogador": "Rodrigo",
+        "colocação": "2",
+        "pontuação": "88"
+      }
+    ]
+  },
+  {
+    "_id": 2278,
+    "data": "25/11/2024",
+    "jogo": "Mamma Mia!",
+    "peso": 1.36,
+    "resultados": [
+      {
+        "jogador": "Marcondes",
+        "colocação": "1",
+        "pontuação": "5"
+      },
+      {
+        "jogador": "Rafael",
+        "colocação": "3",
+        "pontuação": "5"
+      },
+      {
+        "jogador": "Calil",
+        "colocação": "3",
+        "pontuação": "5"
+      },
+      {
+        "jogador": "Rodrigo",
+        "colocação": "4",
+        "pontuação": "3"
+      },
+      {
+        "jogador": "Alexandre",
+        "colocação": "5",
+        "pontuação": "2"
+      }
+    ]
+  },
+  {
+    "_id": 2279,
+    "data": "25/11/2024",
+    "jogo": "Beowulf: The Legend",
+    "peso": 2.26,
+    "resultados": [
+      {
+        "jogador": "Marcondes",
+        "colocação": "5",
+        "pontuação": "9"
+      },
+      {
+        "jogador": "Rafael",
+        "colocação": "4",
+        "pontuação": "21"
+      },
+      {
+        "jogador": "Calil",
+        "colocação": "3",
+        "pontuação": "22"
+      },
+      {
+        "jogador": "Rodrigo",
+        "colocação": "3",
+        "pontuação": "22"
+      },
+      {
+        "jogador": "Alexandre",
+        "colocação": "1",
+        "pontuação": "34"
+      }
+    ]
+  },
+  {
+    "_id": 2280,
+    "data": "25/11/2024",
+    "jogo": "Beowulf: The Legend",
+    "peso": 2.26,
+    "resultados": [
+      {
+        "jogador": "Rodrigo",
+        "colocação": "1",
+        "pontuação": "42"
+      },
+      {
+        "jogador": "Calil",
+        "colocação": "2",
+        "pontuação": "29"
+      },
+      {
+        "jogador": "Rafael",
+        "colocação": "3",
+        "pontuação": "25"
+      },
+      {
+        "jogador": "Alexandre",
+        "colocação": "4",
+        "pontuação": "22"
+      }
+    ]
+  },
+  {
+    "_id": 2281,
+    "data": "25/11/2024",
+    "jogo": "Scarabya",
+    "peso": 1.35,
+    "resultados": [
+      {
+        "jogador": "Alexandre",
+        "colocação": "1",
+        "pontuação": "41"
+      },
+      {
+        "jogador": "Rodrigo",
+        "colocação": "2",
+        "pontuação": "39"
+      }
+    ]
+  },
+  {
+    "_id": 2282,
+    "data": "25/11/2024",
+    "jogo": "Sea Salt & Paper",
+    "peso": 1.43,
+    "resultados": [
+      {
+        "jogador": "Alexandre",
+        "colocação": "1",
+        "pontuação": "45"
+      },
+      {
+        "jogador": "Rodrigo",
+        "colocação": "2",
+        "pontuação": "28"
       }
     ]
   }
