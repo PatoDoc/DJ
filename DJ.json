@@ -1,1748 +1,2191 @@
 ﻿[
   {
+    "jogo": "Jogo",
+    "peso": "Peso",
+    "número de jogadores": "Mínimo de Jogadores",
+    "link": "Link"
+  },
+  {
     "jogo": "1920 Wall Street",
     "peso": "2.26",
-    "número de jogadores": "2-5",
+    "número de jogadores": "4",
     "link": "https://boardgamegeek.com/boardgame/226255/1920-wall-street"
   },
   {
     "jogo": "20 Questions",
     "peso": "1.3",
-    "número de jogadores": "2-7",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/3377/20-questions"
-  },
-  {
-    "jogo": "Take 5",
-    "peso": "1.19",
-    "número de jogadores": "2-10",
-    "link": "https://boardgamegeek.com/boardgame/432/6-nimmt"
   },
   {
     "jogo": "7 Wonders",
     "peso": "2.32",
-    "número de jogadores": "2-7",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/68448/7-wonders"
   },
   {
     "jogo": "7 Wonders Duel",
-    "peso": "2.23",
-    "número de jogadores": "2-2",
+    "peso": "2.22",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/173346/7-wonders-duel"
+  },
+  {
+    "jogo": "A Fake Artist Goes to New York",
+    "peso": "1.12",
+    "número de jogadores": "5",
+    "link": "https://boardgamegeek.com/boardgame/135779/a-fake-artist-goes-to-new-york"
   },
   {
     "jogo": "A Game of Thrones: The Board Game (Second Edition)",
     "peso": "3.73",
-    "número de jogadores": "3-6",
+    "número de jogadores": "3",
     "link": "https://boardgamegeek.com/boardgame/103343/game-thrones-board-game-second-edition"
   },
   {
     "jogo": "Above and Below",
     "peso": "2.52",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/172818/above-and-below"
   },
   {
     "jogo": "Abstratus",
     "peso": "1",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/263351/abstratus"
   },
   {
     "jogo": "Abyss",
     "peso": "2.32",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/155987/abyss"
   },
   {
     "jogo": "Academia",
     "peso": "1.4",
-    "número de jogadores": "2-6",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/8815/academia"
   },
   {
     "jogo": "Age of War",
     "peso": "1.11",
-    "número de jogadores": "2-6",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/155695/age-war"
   },
   {
     "jogo": "Alchemists",
-    "peso": "3.93",
-    "número de jogadores": "2-4",
+    "peso": "3.92",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/161970/alchemists"
   },
   {
     "jogo": "Alhambra",
     "peso": "2.1",
-    "número de jogadores": "2-6",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/6249/alhambra"
   },
   {
     "jogo": "Alien Frontiers",
     "peso": "2.57",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/48726/alien-frontiers"
   },
   {
     "jogo": "Alta Velocidade",
     "peso": "2",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/23279/alta-velocidade"
   },
   {
     "jogo": "Altiplano",
     "peso": "3.29",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/234487/altiplano"
+  },
+  {
+    "jogo": "American Bookshop",
+    "peso": "1.43",
+    "número de jogadores": "3",
+    "link": "https://boardgamegeek.com/boardgame/292811/american-bookshop"
   },
   {
     "jogo": "Among the Stars",
     "peso": "2.24",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/110277/among-stars"
   },
   {
     "jogo": "Anachrony",
     "peso": "4.01",
-    "número de jogadores": "1-4",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/185343/anachrony"
   },
   {
     "jogo": "Angus: Batalhas Medievais",
     "peso": "2.67",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/14685/angus-batalhas-medievais"
   },
   {
+    "jogo": "Animal Kingdoms",
+    "peso": "1.77",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/256513/animal-kingdoms"
+  },
+  {
+    "jogo": "Arboretum",
+    "peso": "2.13",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/140934/arboretum"
+  },
+  {
     "jogo": "Arcadia Quest",
-    "peso": "2.54",
-    "número de jogadores": "2-4",
+    "peso": "2.53",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/155068/arcadia-quest"
+  },
+  {
+    "jogo": "Archaeology: The New Expedition",
+    "peso": "1.27",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/191300/archaeology-new-expedition"
   },
   {
     "jogo": "Architects of the West Kingdom",
     "peso": "2.76",
-    "número de jogadores": "1-5",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/236457/architects-west-kingdom"
   },
   {
     "jogo": "Architectura",
     "peso": "1.81",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/256390/architectura"
+  },
+  {
+    "jogo": "Ark Nova",
+    "peso": "3.77",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/342942/ark-nova"
+  },
+  {
+    "jogo": "Art Robbery",
+    "peso": "1.15",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/341935/art-robbery"
   },
   {
     "jogo": "Ascension: Deckbuilding Game",
     "peso": "2.14",
-    "número de jogadores": "1-4",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/69789/ascension-deckbuilding-game"
   },
   {
     "jogo": "Automania",
     "peso": "2.75",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/176544/automania"
   },
   {
     "jogo": "Ave Caesar",
     "peso": "1.36",
-    "número de jogadores": "2-6",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/494/ave-caesar"
   },
   {
     "jogo": "Avenue",
     "peso": "1.4",
-    "número de jogadores": "1-10",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/205045/avenue"
+  },
+  {
+    "jogo": "Awkward Guests: The Walton Case",
+    "peso": "2.33",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/188866/awkward-guests-the-walton-case"
   },
   {
     "jogo": "Azul",
     "peso": "1.77",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/230802/azul"
+  },
+  {
+    "jogo": "Babylonia",
+    "peso": "2.36",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/266164/babylonia"
   },
   {
     "jogo": "BANG! The Dice Game",
     "peso": "1.28",
-    "número de jogadores": "3-8",
+    "número de jogadores": "3",
     "link": "https://boardgamegeek.com/boardgame/143741/bang-dice-game"
   },
   {
     "jogo": "Bärenpark",
-    "peso": "1.65",
-    "número de jogadores": "2-4",
+    "peso": "1.66",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/219513/barenpark"
   },
   {
     "jogo": "Barrage",
-    "peso": "4.12",
-    "número de jogadores": "1-4",
+    "peso": "4.11",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/251247/barrage"
   },
   {
     "jogo": "Battle for Rokugan",
-    "peso": "2.74",
-    "número de jogadores": "2-5",
+    "peso": "2.75",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/234477/battle-rokugan"
   },
   {
     "jogo": "Battle Line",
     "peso": "1.89",
-    "número de jogadores": "2-2",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/760/battle-line"
   },
   {
     "jogo": "Battle Sheep",
-    "peso": "1.45",
-    "número de jogadores": "2-4",
+    "peso": "1.46",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/54137/battle-sheep"
   },
   {
     "jogo": "Battlestar Galactica: The Board Game",
     "peso": "3.25",
-    "número de jogadores": "3-6",
+    "número de jogadores": "3",
     "link": "https://boardgamegeek.com/boardgame/37111/battlestar-galactica-board-game"
   },
   {
     "jogo": "Belfort",
     "peso": "3.04",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/50750/belfort"
   },
   {
     "jogo": "Between Two Castles of Mad King Ludwig",
     "peso": "2.17",
-    "número de jogadores": "2-7",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/258036/between-two-castles-mad-king-ludwig"
   },
   {
     "jogo": "Biblios",
     "peso": "1.68",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/34219/biblios"
   },
   {
     "jogo": "Blackout: Hong Kong",
     "peso": "3.47",
-    "número de jogadores": "1-4",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/262215/blackout-hong-kong"
   },
   {
     "jogo": "Blood Rage",
     "peso": "2.88",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/170216/blood-rage"
   },
   {
     "jogo": "Blue Lagoon",
     "peso": "2.01",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/244331/blue-lagoon"
   },
   {
     "jogo": "Bohnanza",
     "peso": "1.67",
-    "número de jogadores": "2-7",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/11/bohnanza"
+  },
+  {
+    "jogo": "Bonfire",
+    "peso": "3.63",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/304420/bonfire"
   },
   {
     "jogo": "Braintopia",
     "peso": "1.06",
-    "número de jogadores": "2-6",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/206175/braintopia"
   },
   {
+    "jogo": "Brasília",
+    "peso": "1",
+    "número de jogadores": ""
+  },
+  {
     "jogo": "Brass: Birmingham",
-    "peso": "3.88",
-    "número de jogadores": "2-4",
+    "peso": "3.87",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/224517/brass-birmingham"
   },
   {
     "jogo": "Brass: Lancashire",
-    "peso": "3.86",
-    "número de jogadores": "2-4",
+    "peso": "3.85",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/28720/brass-lancashire"
   },
   {
     "jogo": "Brazil: Imperial",
-    "peso": "3",
-    "número de jogadores": "1-4",
+    "peso": "2.98",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/249277/brazil-imperial"
+  },
+  {
+    "jogo": "Break the Code",
+    "peso": "1.65",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/227466/break-the-code"
   },
   {
     "jogo": "Bunny Kingdom",
     "peso": "2.3",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/184921/bunny-kingdom"
   },
   {
     "jogo": "Byzanz",
     "peso": "1.65",
-    "número de jogadores": "3-6",
+    "número de jogadores": "3",
     "link": "https://boardgamegeek.com/boardgame/38032/byzanz"
   },
   {
     "jogo": "Ca$h 'n Gun$",
     "peso": "1.28",
-    "número de jogadores": "4-6",
+    "número de jogadores": "4",
     "link": "https://boardgamegeek.com/boardgame/19237/cah-n-gun"
+  },
+  {
+    "jogo": "CABO (Second Edition)",
+    "peso": "1.28",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/271321/cabo-second-edition"
   },
   {
     "jogo": "Cahoots",
     "peso": "1.11",
-    "número de jogadores": "1-4",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/246761/cahoots"
   },
   {
     "jogo": "Cangaço",
     "peso": "2",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/233962/cangaco"
   },
   {
     "jogo": "Can't Stop",
     "peso": "1.15",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/41/cant-stop"
   },
   {
     "jogo": "Capital Lux",
     "peso": "1.97",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/205046/capital-lux"
   },
   {
     "jogo": "Carcassonne",
     "peso": "1.89",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/822/carcassonne"
   },
   {
     "jogo": "Carcassonne: Amazonas",
-    "peso": "1.9",
-    "número de jogadores": "2-5",
+    "peso": "1.88",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/206940/carcassonne-amazonas"
   },
   {
     "jogo": "Carson City: The Card Game",
-    "peso": "2.19",
-    "número de jogadores": "1-6",
+    "peso": "2.21",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/248117/carson-city-card-game"
   },
   {
     "jogo": "Cartagena",
     "peso": "1.6",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/826/cartagena"
   },
   {
     "jogo": "Cartographers",
     "peso": "1.88",
-    "número de jogadores": "1-100",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/263918/cartographers"
   },
   {
     "jogo": "CATAN",
     "peso": "2.29",
-    "número de jogadores": "3-4",
+    "número de jogadores": "3",
     "link": "https://boardgamegeek.com/boardgame/13/catan"
   },
   {
     "jogo": "CATAN: Seafarers",
     "peso": "2.38",
-    "número de jogadores": "3-4",
+    "número de jogadores": "3",
     "link": "https://boardgamegeek.com/boardgame/325/catan-seafarers"
   },
   {
     "jogo": "Caverna: Cave vs Cave",
-    "peso": "2.55",
-    "número de jogadores": "1-2",
+    "peso": "2.56",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/220520/caverna-cave-vs-cave"
   },
   {
     "jogo": "Caverna: The Cave Farmers",
     "peso": "3.78",
-    "número de jogadores": "1-7",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/102794/caverna-cave-farmers"
   },
   {
     "jogo": "Caylus 1303",
-    "peso": "2.88",
-    "número de jogadores": "2-5",
+    "peso": "2.86",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/284818/caylus-1303"
   },
   {
     "jogo": "Century: A New World",
     "peso": "2.12",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/270970/century-new-world"
   },
   {
     "jogo": "Century: Eastern Wonders",
     "peso": "2.11",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/242574/century-eastern-wonders"
   },
   {
     "jogo": "Century: Spice Road",
     "peso": "1.8",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/209685/century-spice-road"
   },
   {
     "jogo": "Champions of Midgard",
     "peso": "2.62",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/172287/champions-midgard"
+  },
+  {
+    "jogo": "Cheez-Tricks",
+    "peso": "1.57",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/407627/cheez-tricks"
   },
   {
     "jogo": "Citadels",
     "peso": "2.05",
-    "número de jogadores": "2-8",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/478/citadels"
   },
   {
     "jogo": "CIV: Carta Impera Victoria",
-    "peso": "1.93",
-    "número de jogadores": "2-4",
+    "peso": "2.03",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/240465/civ-carta-impera-victoria"
   },
   {
     "jogo": "Clank!: A Deck-Building Adventure",
     "peso": "2.23",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/201808/clank-deck-building-adventure"
   },
   {
     "jogo": "Clans of Caledonia",
     "peso": "3.46",
-    "número de jogadores": "1-4",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/216132/clans-caledonia"
   },
   {
     "jogo": "Codenames",
     "peso": "1.26",
-    "número de jogadores": "2-8",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/178900/codenames"
   },
   {
     "jogo": "Codenames: Pictures",
-    "peso": "1.24",
-    "número de jogadores": "2-8",
+    "peso": "1.25",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/198773/codenames-pictures"
   },
   {
     "jogo": "Coimbra",
     "peso": "3.26",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/245638/coimbra"
   },
   {
     "jogo": "Coloretto",
     "peso": "1.27",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/5782/coloretto"
   },
   {
     "jogo": "Colossal Arena",
     "peso": "2.02",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/105/colossal-arena"
   },
   {
     "jogo": "Concept",
     "peso": "1.38",
-    "número de jogadores": "4-12",
+    "número de jogadores": "4",
     "link": "https://boardgamegeek.com/boardgame/147151/concept"
   },
   {
     "jogo": "Concordia",
     "peso": "2.99",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/124361/concordia"
   },
   {
     "jogo": "Condottiere",
     "peso": "1.96",
-    "número de jogadores": "2-6",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/112/condottiere"
   },
   {
     "jogo": "Conspiracy: Abyss Universe",
-    "peso": "1.8",
-    "número de jogadores": "2-4",
+    "peso": "1.81",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/276042/conspiracy-abyss-universe"
   },
   {
     "jogo": "Constantinopolis",
     "peso": "3.12",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/31483/constantinopolis"
   },
   {
     "jogo": "Contária",
     "peso": "2",
-    "número de jogadores": "3-5",
+    "número de jogadores": "3",
     "link": "https://boardgamegeek.com/boardgame/210350/contaria"
   },
   {
     "jogo": "Coup",
     "peso": "1.41",
-    "número de jogadores": "2-6",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/131357/coup"
   },
   {
     "jogo": "Cryptid",
-    "peso": "2.25",
-    "número de jogadores": "3-5",
+    "peso": "2.27",
+    "número de jogadores": "3",
     "link": "https://boardgamegeek.com/boardgame/246784/cryptid"
   },
   {
     "jogo": "CV",
     "peso": "1.85",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/143986/cv"
   },
   {
     "jogo": "Cyclades",
     "peso": "2.82",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/54998/cyclades"
   },
   {
     "jogo": "Dead Man's Draw",
-    "peso": "1.32",
-    "número de jogadores": "2-4",
+    "peso": "1.33",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/149155/dead-mans-draw"
   },
   {
     "jogo": "Deadwood",
     "peso": "2.17",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/96713/deadwood"
   },
   {
     "jogo": "Deception: Murder in Hong Kong",
     "peso": "1.58",
-    "número de jogadores": "4-12",
+    "número de jogadores": "4",
     "link": "https://boardgamegeek.com/boardgame/156129/deception-murder-hong-kong"
   },
   {
     "jogo": "Deep Sea Adventure",
-    "peso": "1.18",
-    "número de jogadores": "2-6",
+    "peso": "1.19",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/169654/deep-sea-adventure"
   },
   {
-    "jogo": "Incan Gold",
-    "peso": "1.11",
-    "número de jogadores": "3-8",
-    "link": "https://boardgamegeek.com/boardgame/15512/incan-gold"
-  },
-  {
     "jogo": "Diamonds",
-    "peso": "1.54",
-    "número de jogadores": "2-6",
+    "peso": "1.55",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/152162/diamonds"
   },
   {
     "jogo": "Dice Forge",
     "peso": "1.97",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/194594/dice-forge"
   },
   {
     "jogo": "Dice Throne",
-    "peso": "2.13",
-    "número de jogadores": "2-6",
+    "peso": "2.12",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/268201/dice-throne"
   },
   {
     "jogo": "Dinosaur Island",
     "peso": "3.04",
-    "número de jogadores": "1-4",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/221194/dinosaur-island"
   },
   {
     "jogo": "Dixit",
     "peso": "1.2",
-    "número de jogadores": "3-8",
+    "número de jogadores": "3",
     "link": "https://boardgamegeek.com/boardgame/39856/dixit"
   },
   {
     "jogo": "Dominations: Road to Civilization",
     "peso": "3.58",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/250881/dominations-road-civilization"
   },
   {
     "jogo": "Dominion",
     "peso": "2.35",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/36218/dominion"
   },
   {
     "jogo": "Downforce",
-    "peso": "1.73",
-    "número de jogadores": "2-6",
+    "peso": "1.72",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/215311/downforce"
   },
   {
     "jogo": "Duelosaur Island",
-    "peso": "2.36",
-    "número de jogadores": "1-2",
+    "peso": "2.35",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/247236/duelosaur-island"
   },
   {
     "jogo": "Dune: Imperium",
     "peso": "3.05",
-    "número de jogadores": "1-4",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/316554/dune-imperium"
   },
   {
     "jogo": "Ecos: First Continent",
-    "peso": "2.57",
-    "número de jogadores": "2-6",
+    "peso": "2.56",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/279254/ecos-first-continent"
   },
   {
     "jogo": "Elysium",
     "peso": "2.77",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/163968/elysium"
   },
   {
     "jogo": "Eminent Domain",
     "peso": "2.51",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/68425/eminent-domain"
+  },
+  {
+    "jogo": "Endeavor",
+    "peso": "2.91",
+    "número de jogadores": "3",
+    "link": "https://boardgamegeek.com/boardgame/33160/endeavor"
+  },
+  {
+    "jogo": "Endless Winter: Paleoamericans",
+    "peso": "3.31",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/305096/endless-winter-paleoamericans"
   },
   {
     "jogo": "Era: Medieval Age",
     "peso": "2.25",
-    "número de jogadores": "1-4",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/270971/era-medieval-age"
   },
   {
     "jogo": "Eternal: Chronicles of the Throne",
     "peso": "2.18",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/279419/eternal-chronicles-throne"
   },
   {
     "jogo": "Ethnos",
     "peso": "2.1",
-    "número de jogadores": "2-6",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/206718/ethnos"
   },
   {
     "jogo": "Everdell",
-    "peso": "2.83",
-    "número de jogadores": "1-4",
+    "peso": "2.82",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/199792/everdell"
   },
   {
     "jogo": "Evolution",
-    "peso": "2.42",
-    "número de jogadores": "2-6",
+    "peso": "2.43",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/155703/evolution"
   },
   {
     "jogo": "Ex Libris",
-    "peso": "2.54",
-    "número de jogadores": "1-4",
+    "peso": "2.53",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/201825/ex-libris"
   },
   {
     "jogo": "Exploding Kittens",
     "peso": "1.08",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/172225/exploding-kittens"
   },
   {
     "jogo": "Fairy Tile",
-    "peso": "1.3",
-    "número de jogadores": "2-4",
+    "peso": "1.29",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/220780/fairy-tile"
   },
   {
     "jogo": "Fantasy Realms",
     "peso": "1.81",
-    "número de jogadores": "2-7",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/223040/fantasy-realms"
+  },
+  {
+    "jogo": "Fat Food",
+    "peso": "1",
+    "número de jogadores": "3",
+    "link": "https://boardgamegeek.com/boardgame/211245/fat-food"
   },
   {
     "jogo": "Fearsome Floors",
     "peso": "1.82",
-    "número de jogadores": "2-7",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/7805/fearsome-floors"
   },
   {
     "jogo": "Five Tribes: The Djinns of Naqala",
     "peso": "2.84",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/157354/five-tribes"
   },
   {
     "jogo": "Flamme Rouge",
     "peso": "1.69",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/199478/flamme-rouge"
   },
   {
     "jogo": "Flip City",
-    "peso": "1.75",
-    "número de jogadores": "1-4",
+    "peso": "1.74",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/168679/flip-city"
   },
   {
     "jogo": "For Sale",
     "peso": "1.25",
-    "número de jogadores": "3-6",
+    "número de jogadores": "3",
     "link": "https://boardgamegeek.com/boardgame/172/sale"
   },
   {
     "jogo": "Formula D",
     "peso": "1.97",
-    "número de jogadores": "2-10",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/37904/formula-d"
   },
   {
     "jogo": "Fort",
-    "peso": "2.44",
-    "número de jogadores": "2-4",
+    "peso": "2.45",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/296912/fort"
   },
   {
+    "jogo": "Four pints, please",
+    "peso": "1",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/254618/four-pints-please"
+  },
+  {
     "jogo": "Furnace",
-    "peso": "2.31",
-    "número de jogadores": "2-4",
+    "peso": "2.32",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/318084/furnace"
   },
   {
     "jogo": "Galaxy Trucker",
     "peso": "2.33",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/31481/galaxy-trucker"
   },
   {
     "jogo": "Game of Thrones: Westeros Intrigue",
     "peso": "1.07",
-    "número de jogadores": "2-6",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/155693/game-thrones-westeros-intrigue"
   },
   {
     "jogo": "Get Bit!",
     "peso": "1.12",
-    "número de jogadores": "2-7",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/30539/get-bit"
   },
   {
     "jogo": "Gizmos",
-    "peso": "2.03",
-    "número de jogadores": "2-4",
+    "peso": "2.02",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/246192/gizmos"
   },
   {
     "jogo": "Glen More",
     "peso": "2.67",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/66362/glen-more"
   },
   {
     "jogo": "Globo Game",
     "peso": "2",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/10726/globo-game"
   },
   {
     "jogo": "Gnomopolis",
     "peso": "2.5",
-    "número de jogadores": "1-4",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/202819/gnomopolis"
   },
   {
     "jogo": "Good Cop Bad Cop",
-    "peso": "1.25",
-    "número de jogadores": "4-8",
+    "peso": "1.26",
+    "número de jogadores": "4",
     "link": "https://boardgamegeek.com/boardgame/153064/good-cop-bad-cop"
   },
   {
     "jogo": "Grasse: Mestres Perfumistas",
     "peso": "2.46",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/188885/grasse"
   },
   {
     "jogo": "Great Western Trail",
     "peso": "3.7",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/193738/great-western-trail"
+  },
+  {
+    "jogo": "Great Western Trail: Argentina",
+    "peso": "3.89",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/364011/great-western-trail-argentina"
   },
   {
     "jogo": "Gùgōng",
     "peso": "3.07",
-    "número de jogadores": "1-5",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/250458/gugng"
   },
   {
     "jogo": "Guns & Steel",
-    "peso": "2.4",
-    "número de jogadores": "2-4",
+    "peso": "2.41",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/176334/guns-steel"
   },
   {
     "jogo": "Hadara",
     "peso": "2.21",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/269144/hadara"
   },
   {
     "jogo": "Hadrian's Wall",
-    "peso": "3.15",
-    "número de jogadores": "1-6",
+    "peso": "3.16",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/304783/hadrians-wall"
+  },
+  {
+    "jogo": "Hallertau",
+    "peso": "3.3",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/300322/hallertau"
   },
   {
     "jogo": "Hansa Teutonica",
     "peso": "3.1",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/43015/hansa-teutonica"
   },
   {
     "jogo": "Harvest Dice",
     "peso": "1.33",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/231280/harvest-dice"
   },
   {
     "jogo": "Heimlich & Co.",
     "peso": "1.48",
-    "número de jogadores": "2-7",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/382/heimlich-co"
   },
   {
     "jogo": "Hero Realms",
-    "peso": "1.86",
-    "número de jogadores": "2-4",
+    "peso": "1.85",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/198994/hero-realms"
   },
   {
     "jogo": "Hey, That's My Fish!",
     "peso": "1.45",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/8203/hey-s-my-fish"
   },
   {
     "jogo": "High Society",
-    "peso": "1.48",
-    "número de jogadores": "3-5",
+    "peso": "1.49",
+    "número de jogadores": "3",
     "link": "https://boardgamegeek.com/boardgame/220/high-society"
+  },
+  {
+    "jogo": "Hive",
+    "peso": "2.31",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/2655/hive"
+  },
+  {
+    "jogo": "Hokusai",
+    "peso": "2.71",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/296027/hokusai"
   },
   {
     "jogo": "Holmes: Sherlock & Mycroft",
     "peso": "1.82",
-    "número de jogadores": "2-2",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/174078/holmes-sherlock-mycroft"
   },
   {
     "jogo": "Imagine",
     "peso": "1.07",
-    "número de jogadores": "3-8",
+    "número de jogadores": "3",
     "link": "https://boardgamegeek.com/boardgame/191894/imagine"
   },
   {
     "jogo": "Imperial Settlers",
     "peso": "2.77",
-    "número de jogadores": "1-4",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/154203/imperial-settlers"
+  },
+  {
+    "jogo": "Imperium: Classics",
+    "peso": "3.6",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/318184/imperium-classics"
+  },
+  {
+    "jogo": "Incan Gold",
+    "peso": "1.11",
+    "número de jogadores": "3",
+    "link": "https://boardgamegeek.com/boardgame/15512/incan-gold"
   },
   {
     "jogo": "Infinity Gauntlet: A Love Letter Game",
     "peso": "1.21",
-    "número de jogadores": "2-6",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/304285/infinity-gauntlet-love-letter-game"
   },
   {
     "jogo": "Ingenious",
     "peso": "1.91",
-    "número de jogadores": "1-4",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/9674/ingenious"
+  },
+  {
+    "jogo": "Irish Gauge",
+    "peso": "2.35",
+    "número de jogadores": "3",
+    "link": "https://boardgamegeek.com/boardgame/161882/irish-gauge"
   },
   {
     "jogo": "Isle of Skye: From Chieftain to King",
     "peso": "2.26",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/176494/isle-skye-chieftain-king"
   },
   {
     "jogo": "Istanbul",
     "peso": "2.58",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/148949/istanbul"
   },
   {
     "jogo": "It's a Wonderful World",
     "peso": "2.32",
-    "número de jogadores": "1-5",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/271324/its-wonderful-world"
   },
   {
     "jogo": "Jaipur",
     "peso": "1.46",
-    "número de jogadores": "2-2",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/54043/jaipur"
   },
   {
     "jogo": "Jamaica",
     "peso": "1.66",
-    "número de jogadores": "2-6",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/28023/jamaica"
   },
   {
     "jogo": "Jórvík",
     "peso": "2.38",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/193739/jorvik"
   },
   {
     "jogo": "Jump Drive",
     "peso": "2",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/205597/jump-drive"
+  },
+  {
+    "jogo": "Kariba",
+    "peso": "1.07",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/84732/kariba"
   },
   {
     "jogo": "Karuba",
     "peso": "1.43",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/183251/karuba"
   },
   {
     "jogo": "Kemet",
     "peso": "3",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/127023/kemet"
   },
   {
     "jogo": "King of New York",
     "peso": "1.87",
-    "número de jogadores": "2-6",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/160499/king-new-york"
   },
   {
     "jogo": "King of Tokyo",
     "peso": "1.49",
-    "número de jogadores": "2-6",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/70323/king-tokyo"
   },
   {
     "jogo": "Kingdomino",
     "peso": "1.23",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/204583/kingdomino"
   },
   {
     "jogo": "Kingsburg (Second Edition)",
     "peso": "2.45",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/199966/kingsburg-second-edition"
   },
   {
     "jogo": "L.L.A.M.A.",
-    "peso": "1.05",
-    "número de jogadores": "2-6",
+    "peso": "1.06",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/266083/llm"
+  },
+  {
+    "jogo": "La Casa de Papel: El Juego de Roles Ocultos",
+    "peso": "1.33",
+    "número de jogadores": "4",
+    "link": "https://boardgamegeek.com/boardgame/292338/la-casa-de-papel-el-juego-de-roles-ocultos"
   },
   {
     "jogo": "La Granja",
     "peso": "3.57",
-    "número de jogadores": "1-4",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/146886/la-granja"
   },
   {
     "jogo": "Las Vegas",
-    "peso": "1.17",
-    "número de jogadores": "2-5",
+    "peso": "1.18",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/117959/las-vegas"
   },
   {
     "jogo": "Le Havre",
-    "peso": "3.72",
-    "número de jogadores": "1-5",
+    "peso": "3.71",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/35677/le-havre"
   },
   {
     "jogo": "Letters from Whitechapel",
-    "peso": "2.64",
-    "número de jogadores": "2-6",
+    "peso": "2.65",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/59959/letters-whitechapel"
   },
   {
     "jogo": "Light Rail",
     "peso": "1.36",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/162738/light-rail"
+  },
+  {
+    "jogo": "London (Second Edition)",
+    "peso": "2.73",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/236191/london-second-edition"
   },
   {
     "jogo": "Lord of the Rings: The Confrontation",
     "peso": "2.19",
-    "número de jogadores": "2-2",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/18833/lord-rings-confrontation"
   },
   {
     "jogo": "Lords of Waterdeep",
     "peso": "2.45",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/110327/lords-waterdeep"
+  },
+  {
+    "jogo": "Lorenzo il Magnifico",
+    "peso": "3.3",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/203993/lorenzo-il-magnifico"
   },
   {
     "jogo": "Lost Cities",
     "peso": "1.48",
-    "número de jogadores": "2-2",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/50/lost-cities"
   },
   {
     "jogo": "Lost Legacy: The Starship",
     "peso": "1.26",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/158339/lost-legacy-starship"
+  },
+  {
+    "jogo": "Lost Ruins of Arnak",
+    "peso": "2.92",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/312484/lost-ruins-arnak"
   },
   {
     "jogo": "Love Letter",
     "peso": "1.18",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/129622/love-letter"
   },
   {
     "jogo": "Love Letter: Batman",
     "peso": "1.19",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/168584/love-letter-batman"
   },
   {
     "jogo": "Luxor",
     "peso": "1.9",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/245643/luxor"
+  },
+  {
+    "jogo": "Magna Roma",
+    "peso": "2.56",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/319348/magna-roma"
   },
   {
     "jogo": "Mamma Mia!",
     "peso": "1.36",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/49/mamma-mia"
   },
   {
     "jogo": "Maracaibo",
     "peso": "3.92",
-    "número de jogadores": "1-4",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/276025/maracaibo"
   },
   {
     "jogo": "Mariposas",
-    "peso": "2.2",
-    "número de jogadores": "2-5",
+    "peso": "2.19",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/297978/mariposas"
+  },
+  {
+    "jogo": "Maskmen",
+    "peso": "1.67",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/159581/maskmen"
   },
   {
     "jogo": "Master",
     "peso": "1.63",
-    "número de jogadores": "2-8",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/10820/master"
   },
   {
     "jogo": "Matryoshka",
     "peso": "1.73",
-    "número de jogadores": "3-5",
+    "número de jogadores": "3",
     "link": "https://boardgamegeek.com/boardgame/192185/matryoshka"
   },
   {
     "jogo": "Medici",
     "peso": "2.24",
-    "número de jogadores": "2-6",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/46/medici"
   },
   {
+    "jogo": "Merv: The Heart of the Silk Road",
+    "peso": "3.43",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/306040/merv-heart-silk-road"
+  },
+  {
+    "jogo": "Mille Fiori",
+    "peso": "2.18",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/346501/mille-fiori"
+  },
+  {
     "jogo": "Mindbug: First Contact",
-    "peso": "1.96",
-    "número de jogadores": "2-2",
+    "peso": "1.95",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/345584/mindbug-first-contact"
   },
   {
     "jogo": "Mission to Mars 2049",
     "peso": "1.85",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/194820/mission-mars-2049"
   },
   {
     "jogo": "Modern Art",
     "peso": "2.29",
-    "número de jogadores": "3-5",
+    "número de jogadores": "3",
     "link": "https://boardgamegeek.com/boardgame/118/modern-art"
   },
   {
     "jogo": "Modern Art Card Game",
-    "peso": "1.64",
-    "número de jogadores": "2-5",
+    "peso": "1.66",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/40381/modern-art-card-game"
+  },
+  {
+    "jogo": "Mombasa",
+    "peso": "3.89",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/172386/mombasa"
   },
   {
     "jogo": "Monopoly Deal Card Game",
     "peso": "1.32",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/40398/monopoly-deal-card-game"
   },
   {
     "jogo": "Mottainai",
-    "peso": "3.15",
-    "número de jogadores": "2-5",
+    "peso": "3.16",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/175199/mottainai"
   },
   {
     "jogo": "Mr. Jack Pocket",
     "peso": "1.82",
-    "número de jogadores": "2-2",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/72287/mr-jack-pocket"
   },
   {
     "jogo": "My Village",
     "peso": "3.09",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/172381/my-village"
   },
   {
     "jogo": "Mystery of the Abbey",
     "peso": "2.2",
-    "número de jogadores": "3-6",
+    "número de jogadores": "3",
     "link": "https://boardgamegeek.com/boardgame/915/mystery-abbey"
   },
   {
     "jogo": "Nations: The Dice Game",
     "peso": "2",
-    "número de jogadores": "1-4",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/157809/nations-dice-game"
   },
   {
     "jogo": "New Frontiers",
     "peso": "2.96",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/255692/new-frontiers"
   },
   {
     "jogo": "New York 1901",
-    "peso": "2.04",
-    "número de jogadores": "2-4",
+    "peso": "2.05",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/174660/new-york-1901"
   },
   {
     "jogo": "Newton",
     "peso": "3.38",
-    "número de jogadores": "1-4",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/244711/newton"
   },
   {
     "jogo": "Nexus Ops",
     "peso": "2.23",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/15363/nexus-ops"
   },
   {
     "jogo": "Ninja Camp",
     "peso": "1.53",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/176565/ninja-camp"
   },
   {
     "jogo": "NMBR 9",
     "peso": "1.22",
-    "número de jogadores": "1-4",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/217449/nmbr-9"
   },
   {
     "jogo": "No Thanks!",
     "peso": "1.13",
-    "número de jogadores": "3-7",
+    "número de jogadores": "3",
     "link": "https://boardgamegeek.com/boardgame/12942/no-thanks"
   },
   {
+    "jogo": "Noctiluca",
+    "peso": "1.32",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/269752/noctiluca"
+  },
+  {
+    "jogo": "Notre Dame",
+    "peso": "2.74",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/25554/notre-dame"
+  },
+  {
     "jogo": "Odyssey: Wrath of Poseidon",
-    "peso": "1.5",
-    "número de jogadores": "2-5",
+    "peso": "1.56",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/176215/odyssey-wrath-poseidon"
   },
   {
     "jogo": "Oh My Goods!",
     "peso": "2.3",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/183840/oh-my-goods"
+  },
+  {
+    "jogo": "On Tour",
+    "peso": "1.4",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/251412/tour"
   },
   {
     "jogo": "One Night Ultimate Werewolf",
     "peso": "1.38",
-    "número de jogadores": "3-10",
+    "número de jogadores": "3",
     "link": "https://boardgamegeek.com/boardgame/147949/one-night-ultimate-werewolf"
+  },
+  {
+    "jogo": "Oriflamme",
+    "peso": "1.69",
+    "número de jogadores": "3",
+    "link": "https://boardgamegeek.com/boardgame/287084/oriflamme"
+  },
+  {
+    "jogo": "Paper Dungeons: A Dungeon Scrawler Game",
+    "peso": "2.13",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/291962/paper-dungeons-dungeon-scrawler-game"
   },
   {
     "jogo": "Paper Tales",
     "peso": "2.17",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/217861/paper-tales"
+  },
+  {
+    "jogo": "Paperback",
+    "peso": "2",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/141572/paperback"
   },
   {
     "jogo": "Parade",
     "peso": "1.46",
-    "número de jogadores": "2-6",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/56692/parade"
+  },
+  {
+    "jogo": "Paris",
+    "peso": "2.77",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/282954/paris"
   },
   {
     "jogo": "Patchwork",
     "peso": "1.6",
-    "número de jogadores": "2-2",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/163412/patchwork"
   },
   {
+    "jogo": "Pax Pamir: Second Edition",
+    "peso": "3.85",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/256960/pax-pamir-second-edition"
+  },
+  {
+    "jogo": "Perfil Express: Filmes e Séries",
+    "peso": "1",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/385832/perfil-express"
+  },
+  {
+    "jogo": "Perfil Express: Música",
+    "peso": "1",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/408099/perfil-express-musica"
+  },
+  {
     "jogo": "Point Salad",
-    "peso": "1.14",
-    "número de jogadores": "2-6",
+    "peso": "1.16",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/274960/point-salad"
   },
   {
     "jogo": "Port Royal",
-    "peso": "1.61",
-    "número de jogadores": "2-5",
+    "peso": "1.62",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/156009/port-royal"
   },
   {
     "jogo": "Pot de Vin",
     "peso": "1.86",
-    "número de jogadores": "3-6",
+    "número de jogadores": "3",
     "link": "https://boardgamegeek.com/boardgame/232078/pot-de-vin"
   },
   {
     "jogo": "Potion Explosion",
-    "peso": "1.78",
-    "número de jogadores": "2-4",
+    "peso": "1.77",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/180974/potion-explosion"
   },
   {
     "jogo": "POW!",
     "peso": "1.2",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/207783/pow"
   },
   {
     "jogo": "Power Grid",
     "peso": "3.25",
-    "número de jogadores": "2-6",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/2651/power-grid"
   },
   {
     "jogo": "Power Grid: The Card Game",
     "peso": "2.4",
-    "número de jogadores": "2-6",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/203780/power-grid-card-game"
   },
   {
     "jogo": "Praga Caput Regni",
-    "peso": "3.74",
-    "número de jogadores": "1-4",
+    "peso": "3.73",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/308765/praga-caput-regni"
   },
   {
     "jogo": "Project L",
-    "peso": "1.56",
-    "número de jogadores": "1-4",
+    "peso": "1.55",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/260180/project-l"
   },
   {
     "jogo": "Puerto Rico",
     "peso": "3.27",
-    "número de jogadores": "3-5",
+    "número de jogadores": "3",
     "link": "https://boardgamegeek.com/boardgame/3076/puerto-rico"
+  },
+  {
+    "jogo": "Pulsar 2849",
+    "peso": "3.34",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/228341/pulsar-2849"
   },
   {
     "jogo": "PUSH",
     "peso": "1.04",
-    "número de jogadores": "2-6",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/265256/push"
   },
   {
     "jogo": "Quarriors!",
     "peso": "1.97",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/91536/quarriors"
   },
   {
     "jogo": "Queendomino",
-    "peso": "2.05",
-    "número de jogadores": "2-4",
+    "peso": "2.06",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/232043/queendomino"
   },
   {
     "jogo": "Ra",
     "peso": "2.32",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/12/ra"
   },
   {
     "jogo": "Race for the Galaxy",
     "peso": "2.99",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/28143/race-galaxy"
   },
   {
     "jogo": "Radlands",
-    "peso": "2.25",
-    "número de jogadores": "2-2",
+    "peso": "2.26",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/329082/radlands"
   },
   {
     "jogo": "Raiders of the North Sea",
     "peso": "2.56",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/170042/raiders-north-sea"
   },
   {
     "jogo": "Rajas of the Ganges",
     "peso": "2.89",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/220877/rajas-ganges"
   },
   {
+    "jogo": "Rajas of the Ganges: The Dice Charmers",
+    "peso": "2.29",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/318553/rajas-ganges-dice-charmers"
+  },
+  {
+    "jogo": "Rallyman: DIRT",
+    "peso": "2.28",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/312959/rallyman-dirt"
+  },
+  {
     "jogo": "Rallyman: GT",
-    "peso": "2.21",
-    "número de jogadores": "1-6",
+    "peso": "2.22",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/256589/rallyman-gt"
   },
   {
     "jogo": "Reavers of Midgard",
     "peso": "2.92",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/242684/reavers-midgard"
+  },
+  {
+    "jogo": "Rebel Princess",
+    "peso": "1.82",
+    "número de jogadores": "3",
+    "link": "https://boardgamegeek.com/boardgame/381249/rebel-princess"
   },
   {
     "jogo": "Red Rising",
     "peso": "2.29",
-    "número de jogadores": "1-6",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/329465/red-rising"
   },
   {
     "jogo": "Res Arcana",
     "peso": "2.64",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/262712/res-arcana"
   },
   {
     "jogo": "Rialto",
     "peso": "2.55",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/119591/rialto"
   },
   {
     "jogo": "Rise of Augustus",
     "peso": "1.64",
-    "número de jogadores": "2-6",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/137297/rise-augustus"
+  },
+  {
+    "jogo": "River Dragons",
+    "peso": "1.72",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/634/river-dragons"
   },
   {
     "jogo": "Rocketmen",
     "peso": "2.54",
-    "número de jogadores": "1-4",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/283387/rocketmen"
   },
   {
     "jogo": "Rock'n Roll Manager",
     "peso": "2.48",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/113931/rockn-roll-manager"
   },
   {
     "jogo": "Roll For It!",
     "peso": "1.05",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/129090/roll-it"
   },
   {
     "jogo": "Roll for the Galaxy",
     "peso": "2.78",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/132531/roll-galaxy"
   },
   {
     "jogo": "Roll Player",
-    "peso": "2.44",
-    "número de jogadores": "1-4",
+    "peso": "2.43",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/169426/roll-player"
   },
   {
     "jogo": "Room 25",
     "peso": "1.93",
-    "número de jogadores": "1-6",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/127024/room-25"
   },
   {
     "jogo": "Russian Railroads",
     "peso": "3.41",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/144733/russian-railroads"
   },
   {
     "jogo": "Sail to India",
     "peso": "2.21",
-    "número de jogadores": "3-4",
+    "número de jogadores": "3",
     "link": "https://boardgamegeek.com/boardgame/141736/sail-india"
   },
   {
     "jogo": "San Juan (Second Edition)",
     "peso": "2.08",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/166669/san-juan-second-edition"
   },
   {
+    "jogo": "Santa Monica",
+    "peso": "2.12",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/298065/santa-monica"
+  },
+  {
     "jogo": "Santo Domingo",
-    "peso": "1.71",
-    "número de jogadores": "2-6",
+    "peso": "1.72",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/218995/santo-domingo"
   },
   {
     "jogo": "Santorini",
     "peso": "1.72",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/194655/santorini"
   },
   {
     "jogo": "Sapiens",
     "peso": "2.65",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/169649/sapiens"
   },
   {
     "jogo": "Schotten Totten",
-    "peso": "1.7",
-    "número de jogadores": "2-2",
+    "peso": "1.69",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/372/schotten-totten"
+  },
+  {
+    "jogo": "SCOUT",
+    "peso": "1.36",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/291453/scout"
   },
   {
     "jogo": "Scythe",
     "peso": "3.45",
-    "número de jogadores": "1-5",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/169786/scythe"
+  },
+  {
+    "jogo": "Sea Salt & Paper",
+    "peso": "1.46",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/367220/sea-salt-and-paper"
   },
   {
     "jogo": "Seasons",
     "peso": "2.78",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/108745/seasons"
+  },
+  {
+    "jogo": "SETUP",
+    "peso": "1.17",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/379110/setup"
   },
   {
     "jogo": "Seven Bridges",
     "peso": "2.33",
-    "número de jogadores": "1-6",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/266188/seven-bridges"
   },
   {
     "jogo": "Shards of Infinity",
-    "peso": "2.03",
-    "número de jogadores": "2-4",
+    "peso": "2.06",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/244115/shards-infinity"
   },
   {
     "jogo": "Sheriff of Nottingham",
     "peso": "1.66",
-    "número de jogadores": "3-5",
+    "número de jogadores": "3",
     "link": "https://boardgamegeek.com/boardgame/157969/sheriff-nottingham"
+  },
+  {
+    "jogo": "Skymines",
+    "peso": "3.88",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/359438/skymines"
   },
   {
     "jogo": "Small World",
     "peso": "2.35",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/40692/small-world"
   },
   {
     "jogo": "Smartphone Inc.",
     "peso": "2.77",
-    "número de jogadores": "1-5",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/246684/smartphone-inc"
   },
   {
     "jogo": "Smash Up",
     "peso": "2.06",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/122522/smash"
+  },
+  {
+    "jogo": "Sonora",
+    "peso": "2.1",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/296626/sonora"
   },
   {
     "jogo": "Space Base",
     "peso": "2.12",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/242302/space-base"
+  },
+  {
+    "jogo": "Spicy",
+    "peso": "1.34",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/299169/spicy"
   },
   {
     "jogo": "Splendor",
     "peso": "1.78",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/148228/splendor"
   },
   {
+    "jogo": "Splendor Duel",
+    "peso": "2",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/364073/splendor-duel"
+  },
+  {
     "jogo": "Splendor: Marvel",
-    "peso": "1.8",
-    "número de jogadores": "2-4",
+    "peso": "1.81",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/293296/splendor-marvel"
   },
   {
     "jogo": "Spyfall",
     "peso": "1.24",
-    "número de jogadores": "3-8",
+    "número de jogadores": "3",
     "link": "https://boardgamegeek.com/boardgame/166384/spyfall"
   },
   {
     "jogo": "Star Realms",
     "peso": "1.92",
-    "número de jogadores": "2-2",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/147020/star-realms"
   },
   {
+    "jogo": "Star Wars: Bounty Hunters",
+    "peso": "1.44",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/410655/star-wars-bounty-hunters"
+  },
+  {
     "jogo": "Star Wars: Destiny",
-    "peso": "2.46",
-    "número de jogadores": "2-2",
+    "peso": "2.45",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/205359/star-wars-destiny"
   },
   {
     "jogo": "Star Wars: Jabba's Palace – A Love Letter Game",
-    "peso": "1.23",
-    "número de jogadores": "2-6",
+    "peso": "1.21",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/353470/star-wars-jabbas-palace-love-letter-game"
+  },
+  {
+    "jogo": "Star Wars: Outer Rim",
+    "peso": "2.57",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/271896/star-wars-outer-rim"
+  },
+  {
+    "jogo": "Star Wars: The Clone Wars",
+    "peso": "2.14",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/370913/star-wars-the-clone-wars"
+  },
+  {
+    "jogo": "Star Wars: The Deckbuilding Game",
+    "peso": "2.03",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/374173/star-wars-deckbuilding-game"
+  },
+  {
+    "jogo": "Startups",
+    "peso": "1.57",
+    "número de jogadores": "3",
+    "link": "https://boardgamegeek.com/boardgame/223770/startups"
   },
   {
     "jogo": "Stone Age",
     "peso": "2.46",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/34635/stone-age"
+  },
+  {
+    "jogo": "Stonks",
+    "peso": "1.9",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/364277/stonks"
   },
   {
     "jogo": "Sushi Go!",
     "peso": "1.16",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/133473/sushi-go"
   },
   {
+    "jogo": "Take 5",
+    "peso": "1.19",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/432/6-nimmt"
+  },
+  {
     "jogo": "Tapestry",
-    "peso": "2.94",
-    "número de jogadores": "1-5",
+    "peso": "2.95",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/286096/tapestry"
   },
   {
     "jogo": "Targi",
-    "peso": "2.34",
-    "número de jogadores": "2-2",
+    "peso": "2.33",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/118048/targi"
+  },
+  {
+    "jogo": "Tawantinsuyu: The Inca Empire",
+    "peso": "4.12",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/306481/tawantinsuyu-the-inca-empire"
+  },
+  {
+    "jogo": "Tekhenu: Obelisk of the Sun",
+    "peso": "4.06",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/297030/tekhenu-obelisk-of-the-sun"
   },
   {
     "jogo": "Tem-Purr-A",
     "peso": "1.19",
-    "número de jogadores": "3-10",
+    "número de jogadores": "3",
     "link": "https://boardgamegeek.com/boardgame/95386/tem-purr"
   },
   {
     "jogo": "Terra Mystica",
     "peso": "3.97",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/120677/terra-mystica"
   },
   {
     "jogo": "Terraforming Mars",
     "peso": "3.26",
-    "número de jogadores": "1-5",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/167791/terraforming-mars"
   },
   {
     "jogo": "Terraforming Mars: Ares Expedition",
-    "peso": "2.93",
-    "número de jogadores": "1-4",
+    "peso": "2.92",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/328871/terraforming-mars-ares-expedition"
+  },
+  {
+    "jogo": "Terraforming Mars: The Dice Game",
+    "peso": "2.35",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/296108/terraforming-mars-dice-game"
   },
   {
     "jogo": "Terror in Meeple City",
     "peso": "1.48",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/97903/terror-meeple-city"
   },
   {
     "jogo": "The Builders: Antiquity",
     "peso": "1.9",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/161226/builders-antiquity"
   },
   {
     "jogo": "The Builders: Middle Ages",
-    "peso": "1.8",
-    "número de jogadores": "2-4",
+    "peso": "1.79",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/144553/builders-middle-ages"
   },
   {
     "jogo": "The Castles of Burgundy",
     "peso": "2.98",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/84876/castles-burgundy"
   },
   {
     "jogo": "The Castles of Tuscany",
     "peso": "2.23",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/300327/castles-tuscany"
   },
   {
+    "jogo": "The Chameleon",
+    "peso": "1.04",
+    "número de jogadores": "3",
+    "link": "https://boardgamegeek.com/boardgame/227072/the-chameleon"
+  },
+  {
     "jogo": "The Dwarf King",
-    "peso": "1.44",
-    "número de jogadores": "3-5",
+    "peso": "1.43",
+    "número de jogadores": "3",
     "link": "https://boardgamegeek.com/boardgame/85250/dwarf-king"
   },
   {
     "jogo": "The Manhattan Project",
     "peso": "2.96",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/63628/manhattan-project"
   },
   {
     "jogo": "The Pillars of the Earth",
     "peso": "2.81",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/24480/pillars-earth"
   },
   {
     "jogo": "The Quacks of Quedlinburg",
-    "peso": "1.95",
-    "número de jogadores": "2-4",
+    "peso": "1.94",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/244521/quacks-quedlinburg"
   },
   {
     "jogo": "The Quest for El Dorado",
     "peso": "1.94",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/217372/quest-el-dorado"
   },
   {
     "jogo": "The Resistance",
     "peso": "1.59",
-    "número de jogadores": "5-10",
+    "número de jogadores": "5",
     "link": "https://boardgamegeek.com/boardgame/41114/resistance"
   },
   {
     "jogo": "The Resistance: Avalon",
     "peso": "1.74",
-    "número de jogadores": "5-10",
+    "número de jogadores": "5",
     "link": "https://boardgamegeek.com/boardgame/128882/resistance-avalon"
+  },
+  {
+    "jogo": "The Search for Planet X",
+    "peso": "2.42",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/279537/search-planet-x"
   },
   {
     "jogo": "The Taverns of Tiefenthal",
     "peso": "2.69",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/269207/taverns-tiefenthal"
   },
   {
     "jogo": "The Voyages of Marco Polo",
     "peso": "3.18",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/171623/voyages-marco-polo"
   },
   {
     "jogo": "The Werewolves of Miller's Hollow",
-    "peso": "1.31",
-    "número de jogadores": "8-18",
+    "peso": "1.32",
+    "número de jogadores": "8",
     "link": "https://boardgamegeek.com/boardgame/25821/werewolves-millers-hollow"
   },
   {
     "jogo": "Thief's Market",
-    "peso": "1.91",
-    "número de jogadores": "3-5",
+    "peso": "1.93",
+    "número de jogadores": "3",
     "link": "https://boardgamegeek.com/boardgame/182351/thiefs-market"
   },
   {
     "jogo": "Through the Ages: A New Story of Civilization",
     "peso": "4.44",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/182028/through-ages-new-story-civilization"
   },
   {
     "jogo": "Ticket to Ride",
-    "peso": "1.83",
-    "número de jogadores": "2-5",
+    "peso": "1.82",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/9209/ticket-ride"
   },
   {
     "jogo": "Ticket to Ride Map Collection 1: Asia + Legendary Asia",
     "peso": "1.96",
-    "número de jogadores": "2-6",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/106637/ticket-ride-map-collection-volume-1-team-asia-lege"
   },
   {
     "jogo": "Ticket to Ride Map Collection 4: Nederland",
-    "peso": "2.13",
-    "número de jogadores": "2-5",
+    "peso": "2.14",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/147938/ticket-ride-map-collection-volume-4-nederland"
   },
   {
     "jogo": "Ticket to Ride Map Collection 5: United Kingdom & Pennsylvania",
     "peso": "2.3",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/182078/ticket-ride-map-collection-volume-5-united-kingdom"
   },
   {
     "jogo": "Ticket to Ride: Europe",
     "peso": "1.92",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/14996/ticket-ride-europe"
   },
   {
     "jogo": "Tides of Time",
     "peso": "1.56",
-    "número de jogadores": "2-2",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/176229/tides-time"
   },
   {
     "jogo": "Tigris & Euphrates",
     "peso": "3.5",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/42/tigris-euphrates"
   },
   {
     "jogo": "Timeline",
     "peso": "1.14",
-    "número de jogadores": "2-8",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/128664/timeline"
   },
   {
     "jogo": "Timeline: Inventions",
     "peso": "1.09",
-    "número de jogadores": "2-8",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/85256/timeline-inventions"
   },
   {
     "jogo": "Timeline: Music & Cinema",
     "peso": "1.09",
-    "número de jogadores": "2-8",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/145189/timeline-music-cinema"
+  },
+  {
+    "jogo": "Time's Up! Party Edition",
+    "peso": "1.08",
+    "número de jogadores": "4",
+    "link": "https://boardgamegeek.com/boardgame/230262/times-party-edition"
   },
   {
     "jogo": "Tobago",
     "peso": "2.13",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/42215/tobago"
   },
   {
     "jogo": "Tokaido",
     "peso": "1.74",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/123540/tokaido"
+  },
+  {
+    "jogo": "Town 77",
+    "peso": "1.86",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/402310/town-77"
+  },
+  {
+    "jogo": "TransAmerica",
+    "peso": "1.35",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/2842/transamerica"
   },
   {
     "jogo": "Trapwords",
     "peso": "1.41",
-    "número de jogadores": "4-8",
+    "número de jogadores": "4",
     "link": "https://boardgamegeek.com/boardgame/257527/trapwords"
+  },
+  {
+    "jogo": "Tribes of the Wind",
+    "peso": "2.64",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/362986/tribes-wind"
+  },
+  {
+    "jogo": "Trio",
+    "peso": "1.04",
+    "número de jogadores": "3",
+    "link": "https://boardgamegeek.com/boardgame/352515/trio"
   },
   {
     "jogo": "Troyes",
     "peso": "3.46",
-    "número de jogadores": "1-4",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/73439/troyes"
   },
   {
@@ -1753,463 +2196,194 @@
   {
     "jogo": "Tsuro",
     "peso": "1.22",
-    "número de jogadores": "2-8",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/16992/tsuro"
+  },
+  {
+    "jogo": "Tulip Bubble",
+    "peso": "2.43",
+    "número de jogadores": "3",
+    "link": "https://boardgamegeek.com/boardgame/229414/tulip-bubble"
   },
   {
     "jogo": "Tumblin' Dice",
     "peso": "1.04",
-    "número de jogadores": "1-6",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/16747/tumblin-dice"
+  },
+  {
+    "jogo": "Tutan Tumba",
+    "peso": "1.33",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/411295/tutan-tumba"
+  },
+  {
+    "jogo": "Tutankhamun",
+    "peso": "1.67",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/286667/tutankhamun"
+  },
+  {
+    "jogo": "Tyrants of the Underdark: Board Game",
+    "peso": "2.44",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/336847/tyrants-of-the-underdark-board-game"
   },
   {
     "jogo": "Tzolk'in: The Mayan Calendar",
     "peso": "3.67",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/126163/tzolk-mayan-calendar"
   },
   {
     "jogo": "Ubongo",
     "peso": "1.51",
-    "número de jogadores": "1-4",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/16986/ubongo"
   },
   {
     "jogo": "Ubongo Extreme",
     "peso": "1.87",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/31479/ubongo-extreme"
   },
   {
     "jogo": "Ultimate Warriorz",
     "peso": "1.3",
-    "número de jogadores": "2-8",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/100679/ultimate-warriorz"
   },
   {
     "jogo": "Valeria: Card Kingdoms",
     "peso": "1.97",
-    "número de jogadores": "1-5",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/170561/valeria-card-kingdoms"
   },
   {
     "jogo": "Villagers",
-    "peso": "2.19",
-    "número de jogadores": "1-5",
+    "peso": "2.21",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/241724/villagers"
   },
   {
     "jogo": "Viral",
-    "peso": "2.56",
-    "número de jogadores": "2-5",
+    "peso": "2.57",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/194690/viral"
   },
   {
     "jogo": "Viticulture Essential Edition",
     "peso": "2.89",
-    "número de jogadores": "1-6",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/183394/viticulture-essential-edition"
   },
   {
     "jogo": "Völuspá",
     "peso": "1.95",
-    "número de jogadores": "2-5",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/128554/voluspa"
   },
   {
     "jogo": "Walk the Plank!",
     "peso": "1.25",
-    "número de jogadores": "3-5",
+    "número de jogadores": "3",
     "link": "https://boardgamegeek.com/boardgame/35505/walk-plank"
   },
   {
     "jogo": "Wasabi!",
     "peso": "1.9",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/33154/wasabi"
+  },
+  {
+    "jogo": "Wavelength",
+    "peso": "1.11",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/262543/wavelength"
+  },
+  {
+    "jogo": "Wayfarers of the South Tigris",
+    "peso": "3.8",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/350316/wayfarers-south-tigris"
   },
   {
     "jogo": "We Didn't Playtest This At All",
     "peso": "1.08",
-    "número de jogadores": "2-10",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/31016/we-didnt-playtest-all"
   },
   {
     "jogo": "Welcome to the Dungeon",
     "peso": "1.23",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/150312/welcome-dungeon"
+  },
+  {
+    "jogo": "Welcome to the Dungeon",
+    "peso": "1.23",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/150312/welcome-dungeon"
   },
   {
     "jogo": "Welcome To...",
     "peso": "1.84",
-    "número de jogadores": "1-100",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/233867/welcome"
   },
   {
     "jogo": "Western Legends",
-    "peso": "2.84",
-    "número de jogadores": "2-6",
+    "peso": "2.85",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/232405/western-legends"
+  },
+  {
+    "jogo": "Whistle Mountain",
+    "peso": "2.99",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/301255/whistle-mountain"
   },
   {
     "jogo": "Wingspan",
     "peso": "2.47",
-    "número de jogadores": "1-5",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/266192/wingspan"
+  },
+  {
+    "jogo": "Wingspan Asia",
+    "peso": "2.7",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/366161/wingspan-asia"
   },
   {
     "jogo": "Witchstone",
     "peso": "2.76",
-    "número de jogadores": "2-4",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/318560/witchstone"
   },
   {
     "jogo": "Wits & Wagers",
     "peso": "1.21",
-    "número de jogadores": "3-7",
+    "número de jogadores": "3",
     "link": "https://boardgamegeek.com/boardgame/20100/wits-wagers"
   },
   {
     "jogo": "XCOM: The Board Game",
     "peso": "2.91",
-    "número de jogadores": "1-4",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/163602/xcom-board-game"
   },
   {
-    "jogo": "Rajas of the Ganges: The Dice Charmers",
-    "peso": "2.28",
-    "número de jogadores": "2-5",
-    "link": "https://boardgamegeek.com/boardgame/318553/rajas-ganges-dice-charmers"
-  },
-  {
-    "jogo": "Bonfire",
-    "peso": "3.63",
-    "número de jogadores": "1-4",
-    "link": "https://boardgamegeek.com/boardgame/304420/bonfire"
-  },
-  {
-    "jogo": "Paper Dungeons: A Dungeon Scrawler Game",
-    "peso": "2.14",
-    "número de jogadores": "1-8",
-    "link": "https://boardgamegeek.com/boardgame/291962/paper-dungeons-dungeon-scrawler-game"
-  },
-  {
-    "jogo": "Lost Ruins of Arnak",
-    "peso": "2.92",
-    "número de jogadores": "1-4",
-    "link": "https://boardgamegeek.com/boardgame/312484/lost-ruins-arnak"
-  },
-  {
-    "jogo": "Oriflamme",
-    "peso": "1.68",
-    "número de jogadores": "3-5",
-    "link": "https://boardgamegeek.com/boardgame/287084/oriflamme"
-  },
-  {
-    "jogo": "Mombasa",
-    "peso": "3.89",
-    "número de jogadores": "2-4",
-    "link": "https://boardgamegeek.com/boardgame/172386/mombasa"
-  },
-  {
-    "jogo": "Dinosaur Island",
-    "peso": "3.04",
-    "número de jogadores": "1-4",
-    "link": "https://boardgamegeek.com/boardgame/221194/dinosaur-island"
-  },
-  {
-    "jogo": "Four pints, please",
-    "peso": "1",
-    "número de jogadores": "2-8",
-    "link": "https://boardgamegeek.com/boardgame/254618/four-pints-please"
-  },
-  {
-    "jogo": "Hokusai",
-    "peso": "2.71",
-    "número de jogadores": "1-5",
-    "link": "https://boardgamegeek.com/boardgame/296027/hokusai"
-  },
-  {
-    "jogo": "Irish Gauge",
-    "peso": "2.35",
-    "número de jogadores": "3-5",
-    "link": "https://boardgamegeek.com/boardgame/161882/irish-gauge"
-  },
-  {
-    "jogo": "Kariba",
-    "peso": "1.07",
-    "número de jogadores": "2-4",
-    "link": "https://boardgamegeek.com/boardgame/84732/kariba"
-  },
-  {
-    "jogo": "Brasília",
-    "peso": "1",
-    "número de jogadores": "2-5"
-  },
-  {
-    "jogo": "Sonora",
-    "peso": "2.14",
-    "número de jogadores": "1-4",
-    "link": "https://boardgamegeek.com/boardgame/296626/sonora"
-  },
-  {
-    "jogo": "Santa Monica",
-    "peso": "2.12",
-    "número de jogadores": "2-4",
-    "link": "https://boardgamegeek.com/boardgame/298065/santa-monica"
-  },
-  {
-    "jogo": "The Search for Planet X",
-    "peso": "2.42",
-    "número de jogadores": "1-4",
-    "link": "https://boardgamegeek.com/boardgame/279537/search-planet-x"
-  },
-  {
-    "jogo": "River Dragons",
-    "peso": "1.72",
-    "número de jogadores": "2-6",
-    "link": "https://boardgamegeek.com/boardgame/634/river-dragons"
-  },
-  {
-    "jogo": "Whistle Mountain",
-    "peso": "2.99",
-    "número de jogadores": "2-4",
-    "link": "https://boardgamegeek.com/boardgame/301255/whistle-mountain"
-  },
-  {
-    "jogo": "Hive",
-    "peso": "2.31",
-    "número de jogadores": "2-2",
-    "link": "https://boardgamegeek.com/boardgame/2655/hive"
-  },
-  {
     "jogo": "Xingu",
-    "peso": "3.38",
-    "número de jogadores": "2-6",
+    "peso": "3.43",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/269892/xingu"
-  },
-  {
-    "jogo": "Lorenzo il Magnifico",
-    "peso": "3.3",
-    "número de jogadores": "2-4",
-    "link": "https://boardgamegeek.com/boardgame/203993/lorenzo-il-magnifico"
-  },
-  {
-    "jogo": "On Tour",
-    "peso": "1.39",
-    "número de jogadores": "1-8",
-    "link": "https://boardgamegeek.com/boardgame/251412/tour"
-  },
-  {
-    "jogo": "Startups",
-    "peso": "1.56",
-    "número de jogadores": "3-7",
-    "link": "https://boardgamegeek.com/boardgame/223770/startups"
-  },
-  {
-    "jogo": "Endeavor",
-    "peso": "2.91",
-    "número de jogadores": "3-5",
-    "link": "https://boardgamegeek.com/boardgame/33160/endeavor"
-  },
-  {
-    "jogo": "Archaeology: The New Expedition",
-    "peso": "1.27",
-    "número de jogadores": "2-5",
-    "link": "https://boardgamegeek.com/boardgame/191300/archaeology-new-expedition"
-  },
-  {
-    "jogo": "Ark Nova",
-    "peso": "3.77",
-    "número de jogadores": "1-4",
-    "link": "https://boardgamegeek.com/boardgame/342942/ark-nova"
-  },
-  {
-    "jogo": "Rallyman: DIRT",
-    "peso": "2.29",
-    "número de jogadores": "1-6",
-    "link": "https://boardgamegeek.com/boardgame/312959/rallyman-dirt"
-  },
-  {
-    "jogo": "La Casa de Papel: El Juego de Roles Ocultos",
-    "peso": "1.33",
-    "número de jogadores": "4-8",
-    "link": "https://boardgamegeek.com/boardgame/292338/la-casa-de-papel-el-juego-de-roles-ocultos"
-  },
-  {
-    "jogo": "Splendor Duel",
-    "peso": "1.98",
-    "número de jogadores": "2-2",
-    "link": "https://boardgamegeek.com/boardgame/364073/splendor-duel"
-  },
-  {
-    "jogo": "Wingspan Asia",
-    "peso": "2.69",
-    "número de jogadores": "1-2",
-    "link": "https://boardgamegeek.com/boardgame/366161/wingspan-asia"
-  },
-  {
-    "jogo": "Endless Winter: Paleoamericans",
-    "peso": "3.3",
-    "número de jogadores": "1-4",
-    "link": "https://boardgamegeek.com/boardgame/305096/endless-winter-paleoamericans"
-  },
-  {
-    "jogo": "SCOUT",
-    "peso": "1.36",
-    "número de jogadores": "2-5",
-    "link": "https://boardgamegeek.com/boardgame/291453/scout"
-  },
-  {
-    "jogo": "Time's Up! Party Edition",
-    "peso": "1.09",
-    "número de jogadores": "4-12",
-    "link": "https://boardgamegeek.com/boardgame/230262/times-party-edition"
   },
   {
     "jogo": "Yaniv",
     "peso": "1.33",
-    "número de jogadores": "2-10",
+    "número de jogadores": "2",
     "link": "https://boardgamegeek.com/boardgame/88900/yaniv"
-  },
-  {
-    "jogo": "Tulip Bubble",
-    "peso": "2.46",
-    "número de jogadores": "3-5",
-    "link": "https://boardgamegeek.com/boardgame/229414/tulip-bubble"
-  },
-  {
-    "jogo": "Great Western Trail: Argentina",
-    "peso": "3.89",
-    "número de jogadores": "1-4",
-    "link": "https://boardgamegeek.com/boardgame/364011/great-western-trail-argentina"
-  },
-  {
-    "jogo": "Mille Fiori",
-    "peso": "2.17",
-    "número de jogadores": "2-4",
-    "link": "https://boardgamegeek.com/boardgame/346501/mille-fiori"
-  },
-  {
-    "jogo": "Imperium: Classics",
-    "peso": "3.59",
-    "número de jogadores": "1-4",
-    "link": "https://boardgamegeek.com/boardgame/318184/imperium-classics"
-  },
-  {
-    "jogo": "Tutankhamun",
-    "peso": "1.67",
-    "número de jogadores": "2-6",
-    "link": "https://boardgamegeek.com/boardgame/286667/tutankhamun"
-  },
-  {
-    "jogo": "Star Wars: The Deckbuilding Game",
-    "peso": "2.03",
-    "número de jogadores": "2-2",
-    "link": "https://boardgamegeek.com/boardgame/374173/star-wars-deckbuilding-game"
-  },
-  {
-    "jogo": "Noctiluca",
-    "peso": "1.31",
-    "número de jogadores": "1-4",
-    "link": "https://boardgamegeek.com/boardgame/269752/noctiluca"
-  },
-  {
-    "jogo": "Star Wars: Outer Rim",
-    "peso": "2.56",
-    "número de jogadores": "1-4",
-    "link": "https://boardgamegeek.com/boardgame/271896/star-wars-outer-rim"
-  },
-  {
-    "jogo": "Wayfarers of the South Tigris",
-    "peso": "3.8",
-    "número de jogadores": "1-4",
-    "link": "https://boardgamegeek.com/boardgame/350316/wayfarers-south-tigris"
-  },
-  {
-    "jogo": "Tribes of the Wind",
-    "peso": "2.65",
-    "número de jogadores": "2-5",
-    "link": "https://boardgamegeek.com/boardgame/362986/tribes-wind"
-  },
-  {
-    "jogo": "Merv: The Heart of the Silk Road",
-    "peso": "3.43",
-    "número de jogadores": "1-4",
-    "link": "https://boardgamegeek.com/boardgame/306040/merv-heart-silk-road"
-  },
-  {
-    "jogo": "Pax Pamir: Second Edition",
-    "peso": "3.85",
-    "número de jogadores": "1-5",
-    "link": "https://boardgamegeek.com/boardgame/256960/pax-pamir-second-edition"
-  },
-  {
-    "jogo": "Hallertau",
-    "peso": "3.3",
-    "número de jogadores": "1-4",
-    "link": "https://boardgamegeek.com/boardgame/300322/hallertau"
-  },
-  {
-    "jogo": "London (Second Edition)",
-    "peso": "2.73",
-    "número de jogadores": "2-4",
-    "link": "https://boardgamegeek.com/boardgame/236191/london-second-edition"
-  },
-  {
-    "jogo": "Terraforming Mars: The Dice Game",
-    "peso": "2.37",
-    "número de jogadores": "1-4",
-    "link": "https://boardgamegeek.com/boardgame/296108/terraforming-mars-dice-game"
-  },
-  {
-    "jogo": "Welcome to the Dungeon",
-    "peso": "1.23",
-    "número de jogadores": "2-4",
-    "link": "https://boardgamegeek.com/boardgame/150312/welcome-dungeon"
-  },
-  {
-    "jogo": "Perfil Express: Filmes e Séries",
-    "peso": "1",
-    "número de jogadores": "2-99",
-    "link": "https://boardgamegeek.com/boardgame/385832/perfil-express"
-  },
-  {
-    "jogo": "Skymines",
-    "peso": "3.87",
-    "número de jogadores": "1-4",
-    "link": "https://boardgamegeek.com/boardgame/359438/skymines"
-  },
-  {
-    "jogo": "TransAmerica",
-    "peso": "1.35",
-    "número de jogadores": "2-6",
-    "link": "https://boardgamegeek.com/boardgame/2842/transamerica"
-  },
-  {
-    "jogo": "Animal Kingdoms",
-    "peso": "1.76",
-    "número de jogadores": "1-5",
-    "link": "https://boardgamegeek.com/boardgame/256513/animal-kingdoms"
-  },
-  {
-    "jogo": "Trio",
-    "peso": "1.05",
-    "número de jogadores": "3-6",
-    "link": "https://boardgamegeek.com/boardgame/352515/trio"
-  },
-  {
-    "jogo": "Maskmen",
-    "peso": "1.67",
-    "número de jogadores": "2-6",
-    "link": "https://boardgamegeek.com/boardgame/159581/maskmen"
-  },
-  {
-    "jogo": "Notre Dame",
-    "peso": "2.74",
-    "número de jogadores": "2-5",
-    "link": "https://boardgamegeek.com/boardgame/25554/notre-dame"
   },
   {
     "jogo": "Zaraba 22",
@@ -2217,183 +2391,273 @@
     "número de jogadores": ""
   },
   {
-    "jogo": "Stonks",
-    "peso": "1.9",
-    "número de jogadores": "2-5",
-    "link": "https://boardgamegeek.com/boardgame/364277/stonks"
-  },
-  {
-    "jogo": "Rebel Princess",
-    "peso": "1.88",
-    "número de jogadores": "3-6",
-    "link": "https://boardgamegeek.com/boardgame/381249/rebel-princess"
-  },
-  {
-    "jogo": "Wavelength",
-    "peso": "1.11",
-    "número de jogadores": "2-12",
-    "link": "https://boardgamegeek.com/boardgame/262543/wavelength"
-  },
-  {
-    "jogo": "Babylonia",
-    "peso": "2.36",
-    "número de jogadores": "2-4",
-    "link": "https://boardgamegeek.com/boardgame/266164/babylonia"
-  },
-  {
-    "jogo": "Paris",
-    "peso": "2.78",
-    "número de jogadores": "2-4",
-    "link": "https://boardgamegeek.com/boardgame/282954/paris"
-  },
-  {
-    "jogo": "Perfil Express: Música",
-    "peso": "0",
-    "número de jogadores": "2-99",
-    "link": "https://boardgamegeek.com/boardgame/408099/perfil-express-musica"
-  },
-  {
-    "jogo": "Arboretum",
-    "peso": "2.13",
-    "número de jogadores": "2-4",
-    "link": "https://boardgamegeek.com/boardgame/140934/arboretum"
-  },
-  {
-    "jogo": "Cheez-Tricks",
-    "peso": "1.57",
-    "número de jogadores": "2-5",
-    "link": "https://boardgamegeek.com/boardgame/407627/cheez-tricks"
-  },
-  {
-    "jogo": "Tawantinsuyu: The Inca Empire",
-    "peso": "4.12",
-    "número de jogadores": "1-4",
-    "link": "https://boardgamegeek.com/boardgame/306481/tawantinsuyu-the-inca-empire"
-  },
-  {
-    "jogo": "American Bookshop",
-    "peso": "1.43",
-    "número de jogadores": "3-5",
-    "link": "https://boardgamegeek.com/boardgame/292811/american-bookshop"
-  },
-  {
-    "jogo": "Paperback",
-    "peso": "2",
-    "número de jogadores": "2-5",
-    "link": "https://boardgamegeek.com/boardgame/141572/paperback"
-  },
-  {
-    "jogo": "Magna Roma",
-    "peso": "2.59",
-    "número de jogadores": "1-4",
-    "link": "https://boardgamegeek.com/boardgame/319348/magna-roma"
-  },
-  {
-    "jogo": "Fat Food",
-    "peso": "0",
-    "número de jogadores": "3-6",
-    "link": "https://boardgamegeek.com/boardgame/211245/fat-food"
-  },
-  {
-    "jogo": "Awkward Guests: The Walton Case",
-    "peso": "2.32",
-    "número de jogadores": "1-8",
-    "link": "https://boardgamegeek.com/boardgame/188866/awkward-guests-the-walton-case"
-  },
-  {
-    "jogo": "Sea Salt & Paper",
-    "peso": "1.43",
-    "número de jogadores": "2-4",
-    "link": "https://boardgamegeek.com/boardgame/367220/sea-salt-and-paper"
-  },
-  {
-    "jogo": "Art Robbery",
-    "peso": "1.15",
-    "número de jogadores": "2-5",
-    "link": "https://boardgamegeek.com/boardgame/341935/art-robbery"
-  },
-  {
-    "jogo": "CABO (Second Edition)",
-    "peso": "1.18",
-    "número de jogadores": "2-4",
-    "link": "https://boardgamegeek.com/boardgame/271321/cabo-second-edition"
-  },
-  {
-    "jogo": "A Fake Artist Goes to New York",
-    "peso": "1.12",
-    "número de jogadores": "5-10",
-    "link": "https://boardgamegeek.com/boardgame/135779/a-fake-artist-goes-to-new-york"
-  },
-  {
-    "jogo": "The Chameleon",
-    "peso": "1.04",
-    "número de jogadores": "3-8",
-    "link": "https://boardgamegeek.com/boardgame/227072/the-chameleon"
-  },
-  {
-    "jogo": "Town 77",
-    "peso": "1.83",
-    "número de jogadores": "1-5",
-    "link": "https://boardgamegeek.com/boardgame/402310/town-77"
-  },
-  {
-    "jogo": "Tutan Tumba",
-    "peso": "1.33",
-    "número de jogadores": "2-6",
-    "link": "https://boardgamegeek.com/boardgame/411295/tutan-tumba"
-  },
-  {
     "jogo": "ハーベスト (Harvest)",
     "peso": "1.1",
-    "número de jogadores": "1-6",
+    "número de jogadores": "1",
     "link": "https://boardgamegeek.com/boardgame/15390/habesuto-harvest"
   },
   {
-    "jogo": "Pulsar 2849",
-    "peso": "3.35",
-    "número de jogadores": "2-4",
-    "link": "https://boardgamegeek.com/boardgame/228341/pulsar-2849"
+    "jogo": "Accuse!",
+    "peso": "1",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/401225/accuse"
   },
   {
-    "jogo": "Star Wars: Bounty Hunters",
-    "peso": "1.4",
-    "número de jogadores": "2-6",
-    "link": "https://boardgamegeek.com/boardgame/410655/star-wars-bounty-hunters"
+    "jogo": "Jungo",
+    "peso": "1",
+    "número de jogadores": "3",
+    "link": "https://boardgamegeek.com/boardgame/424816/jungo"
   },
   {
-    "jogo": "Tekhenu: Obelisk of the Sun",
-    "peso": "4.06",
-    "número de jogadores": "1-4",
-    "link": "https://boardgamegeek.com/boardgame/297030/tekhenu-obelisk-of-the-sun"
+    "jogo": "Sky Team",
+    "peso": "2.05",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/373106/sky-team"
   },
   {
-    "jogo": "Spicy",
-    "peso": "1.34",
-    "número de jogadores": "2-6",
-    "link": "https://boardgamegeek.com/boardgame/299169/spicy"
+    "jogo": "The Lord of the Rings: Duel for Middle-earth",
+    "peso": "2.03",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/421006/the-lord-of-the-rings-duel-for-middle-earth"
   },
   {
-    "jogo": "Break the Code",
-    "peso": "1.67",
-    "número de jogadores": "2-4",
-    "link": "https://boardgamegeek.com/boardgame/227466/break-the-code"
+    "jogo": "Master Entretenimento",
+    "peso": "1",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/324194/master-entretenimento"
   },
   {
-    "jogo": "SETUP",
-    "peso": "1.17",
-    "número de jogadores": "2-4",
-    "link": "https://boardgamegeek.com/boardgame/379110/setup"
+    "jogo": "Scarabya",
+    "peso": "1.35",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/244330/scarabya"
   },
   {
-    "jogo": "Star Wars: The Clone Wars",
-    "peso": "2.15",
-    "número de jogadores": "1-5",
-    "link": "https://boardgamegeek.com/boardgame/370913/star-wars-the-clone-wars"
+    "jogo": "Beowulf: The Legend",
+    "peso": "2.26",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/17449/beowulf-the-legend"
   },
   {
-    "jogo": "Tyrants of the Underdark: Board Game",
-    "peso": "2.45",
-    "número de jogadores": "2-4",
-    "link": "https://boardgamegeek.com/boardgame/336847/tyrants-of-the-underdark-board-game"
+    "jogo": "Adrenaline",
+    "peso": "2.38",
+    "número de jogadores": "3",
+    "link": "https://boardgamegeek.com/boardgame/202408/adrenaline"
+  },
+  {
+    "jogo": "Aye, Dark Overlord! The Red Box",
+    "peso": "1.28",
+    "número de jogadores": "4",
+    "link": "https://boardgamegeek.com/boardgame/18723/aye-dark-overlord-the-red-box"
+  },
+  {
+    "jogo": "Road Rally USA",
+    "peso": "1.83",
+    "número de jogadores": "3",
+    "link": "https://boardgamegeek.com/boardgame/136954/road-rally-usa"
+  },
+  {
+    "jogo": "Imagem & Ação: Edição Especial",
+    "peso": "1",
+    "número de jogadores": "4",
+    "link": "https://boardgamegeek.com/boardgame/407700/imagem-and-acao-edicao-especial"
+  },
+  {
+    "jogo": "Quest",
+    "peso": "1.84",
+    "número de jogadores": "4",
+    "link": "https://boardgamegeek.com/boardgame/316287/quest"
+  },
+  {
+    "jogo": "Scrabble",
+    "peso": "2.06",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/320/scrabble"
+  },
+  {
+    "jogo": "Fury of Dracula (Third/Fourth Edition)",
+    "peso": "3.28",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/181279/fury-of-dracula-thirdfourth-edition"
+  },
+  {
+    "jogo": "Secret Hitler",
+    "peso": "1.74",
+    "número de jogadores": "5",
+    "link": "https://boardgamegeek.com/boardgame/188834/secret-hitler"
+  },
+  {
+    "jogo": "PitchCar",
+    "peso": "1.12",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/150/pitchcar"
+  },
+  {
+    "jogo": "Eldritch Horror",
+    "peso": "3.32",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/146021/eldritch-horror"
+  },
+  {
+    "jogo": "KeyForge: Call of the Archons",
+    "peso": "2.48",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/257501/keyforge-call-of-the-archons"
+  },
+  {
+    "jogo": "Epic Card Game",
+    "peso": "2.52",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/175621/epic-card-game"
+  },
+  {
+    "jogo": "Sid Meier's Civilization: The Board Game",
+    "peso": "3.9",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/77130/sid-meiers-civilization-the-board-game"
+  },
+  {
+    "jogo": "Long Shot: The Dice Game",
+    "peso": "1.92",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/295374/long-shot-the-dice-game"
+  },
+  {
+    "jogo": "Meeple Heist",
+    "peso": "2.33",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/233772/meeple-heist"
+  },
+  {
+    "jogo": "Salem 1692",
+    "peso": "2.02",
+    "número de jogadores": "4",
+    "link": "https://boardgamegeek.com/boardgame/175549/salem-1692"
+  },
+  {
+    "jogo": "Cosmic Encounter",
+    "peso": "2.58",
+    "número de jogadores": "3",
+    "link": "https://boardgamegeek.com/boardgame/39463/cosmic-encounter"
+  },
+  {
+    "jogo": "Dixit: Odyssey",
+    "peso": "1.16",
+    "número de jogadores": "3",
+    "link": "https://boardgamegeek.com/boardgame/92828/dixit-odyssey"
+  },
+  {
+    "jogo": "Forest Shuffle",
+    "peso": "2.19",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/391163/forest-shuffle"
+  },
+  {
+    "jogo": "CuBirds",
+    "peso": "1.31",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/245476/cubirds"
+  },
+  {
+    "jogo": "7 Wonders: Architects",
+    "peso": "1.35",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/346703/7-wonders-architects"
+  },
+  {
+    "jogo": "Skyjo",
+    "peso": "1.07",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/204135/skyjo"
+  },
+  {
+    "jogo": "Awkward Guests 2: The Berwick Cases",
+    "peso": "2.43",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/378477/awkward-guests-2-the-berwick-cases"
+  },
+  {
+    "jogo": "Skull",
+    "peso": "1.11",
+    "número de jogadores": "3",
+    "link": "https://boardgamegeek.com/boardgame/92415/skull"
+  },
+  {
+    "jogo": "Rummikub",
+    "peso": "1.72",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/811/rummikub"
+  },
+  {
+    "jogo": "Pandemic: Rapid Response",
+    "peso": "2.11",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/280789/pandemic-rapid-response"
+  },
+  {
+    "jogo": "Triqueta",
+    "peso": "1.29",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/378200/triqueta"
+  },
+  {
+    "jogo": "Acquire",
+    "peso": "2.49",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/5/acquire"
+  },
+  {
+    "jogo": "Buraco",
+    "peso": "2.13",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/64431/buraco"
+  },
+  {
+    "jogo": "Airlines Europe",
+    "peso": "2.43",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/90419/airlines-europe"
+  },
+  {
+    "jogo": "Holi: Festival of Colors",
+    "peso": "2.06",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/295957/holi-festival-of-colors"
+  },
+  {
+    "jogo": "Amun-Re",
+    "peso": "3.03",
+    "número de jogadores": "3",
+    "link": "https://boardgamegeek.com/boardgame/5404/amun-re"
+  },
+  {
+    "jogo": "Cacao",
+    "peso": "1.82",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/171499/cacao"
+  },
+  {
+    "jogo": "Sushi Go Party!",
+    "peso": "1.31",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/192291/sushi-go-party"
+  },
+  {
+    "jogo": "Michael Strogoff",
+    "peso": "2.08",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/224894/michael-strogoff"
+  },
+  {
+    "jogo": "Martinique",
+    "peso": "1.88",
+    "número de jogadores": "2",
+    "link": "https://boardgamegeek.com/boardgame/42244/martinique"
+  },
+  {
+    "jogo": "Dragon Castle",
+    "peso": "2.01",
+    "número de jogadores": "1",
+    "link": "https://boardgamegeek.com/boardgame/232219/dragon-castle"
   }
 ]
